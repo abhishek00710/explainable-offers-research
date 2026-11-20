@@ -2,7 +2,7 @@
 
 A reproducible Swift research artifact supporting **Engineering Explainable Offer Recommendations in Mobile Banking**, a manuscript intended for IEEE Software. This is an independently developed synthetic prototype, not a bank's production implementation. It uses deterministic rules, not a trained AI/ML classifier. No customer engagement, redemption, production benefit, statistical significance or iOS performance is claimed.
 
-**Release status:** prepared for owner review under Apache-2.0; disclosure-rights confirmation and publication approval remain pending. Nothing has been published or pushed. See [publication-readiness report](docs/PUBLICATION_READINESS.md) and [licensing review](docs/THIRD_PARTY.md).
+**Release status:** the public repository's [v1.0.0 release](https://github.com/abhishek00710/explainable-offers-research/releases/tag/v1.0.0) is available. It contains synthetic-only research materials and a SHA-256 checksum file for the release archive; the original unredacted project and manuscript DOCX are excluded.
 
 ## Research questions
 
