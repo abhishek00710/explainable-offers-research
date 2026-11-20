@@ -1,0 +1,51 @@
+warning: <USER_HOME>/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'validation': failed storing manifest for 'validation' in cache: attempt to write a readonly database
+Building for production...
+[4 / 15] OfferCore
+[6 / 16] OfferCore
+[11 / 19] Evaluation
+Build complete! (2.74 sec)
+Measured original seed=-1 controlled-rate=-1
+Measured sensitivity seed=11 controlled-rate=0
+Measured sensitivity seed=11 controlled-rate=5
+Measured sensitivity seed=11 controlled-rate=10
+Measured sensitivity seed=11 controlled-rate=20
+Measured sensitivity seed=11 controlled-rate=40
+Measured sensitivity seed=11 controlled-rate=60
+Measured sensitivity seed=11 controlled-rate=80
+Measured sensitivity seed=11 controlled-rate=100
+Measured sensitivity seed=29 controlled-rate=0
+Measured sensitivity seed=29 controlled-rate=5
+Measured sensitivity seed=29 controlled-rate=10
+Measured sensitivity seed=29 controlled-rate=20
+Measured sensitivity seed=29 controlled-rate=40
+Measured sensitivity seed=29 controlled-rate=60
+Measured sensitivity seed=29 controlled-rate=80
+Measured sensitivity seed=29 controlled-rate=100
+Measured sensitivity seed=47 controlled-rate=0
+Measured sensitivity seed=47 controlled-rate=5
+Measured sensitivity seed=47 controlled-rate=10
+Measured sensitivity seed=47 controlled-rate=20
+Measured sensitivity seed=47 controlled-rate=40
+Measured sensitivity seed=47 controlled-rate=60
+Measured sensitivity seed=47 controlled-rate=80
+Measured sensitivity seed=47 controlled-rate=100
+Measured sensitivity seed=71 controlled-rate=0
+Measured sensitivity seed=71 controlled-rate=5
+Measured sensitivity seed=71 controlled-rate=10
+Measured sensitivity seed=71 controlled-rate=20
+Measured sensitivity seed=71 controlled-rate=40
+Measured sensitivity seed=71 controlled-rate=60
+Measured sensitivity seed=71 controlled-rate=80
+Measured sensitivity seed=71 controlled-rate=100
+Measured sensitivity seed=101 controlled-rate=0
+Measured sensitivity seed=101 controlled-rate=5
+Measured sensitivity seed=101 controlled-rate=10
+Measured sensitivity seed=101 controlled-rate=20
+Measured sensitivity seed=101 controlled-rate=40
+Measured sensitivity seed=101 controlled-rate=60
+Measured sensitivity seed=101 controlled-rate=80
+Measured sensitivity seed=101 controlled-rate=100
+Completed 41 datasets × 4 methods; 24 scenarios × 5 rankers. No new timing claims.

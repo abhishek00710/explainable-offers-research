@@ -1,0 +1,98 @@
+warning: <USER_HOME>/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'artifact': failed storing manifest for 'artifact' in cache: attempt to write a readonly database
+Building for debugging...
+[Pre-planning 1 / 211]
+[Planning deferred tasks]
+[58 / 108] ExplainableOffers_SyntheticData
+[60 / 108]
+[61 / 109] OfferCore
+[69 / 150]
+[73 / 150]
+[78 / 150]
+[80 / 150]
+[84 / 150]
+[86 / 150]
+[89 / 150]
+[92 / 150]
+[94 / 150]
+[95 / 150]
+[102 / 150] OfferCore
+[110 / 152] Evaluation
+[114 / 157] SyntheticData
+[115 / 157] Evaluation
+[127 / 157] Evaluation
+[134 / 158] SyntheticData
+[139 / 158] OfferCore-product
+[143 / 159] offer-experiments-product
+[145 / 161] offer-experiments-product
+[146 / 161] OfferCoreTests-product
+[155 / 198]
+[160 / 198]
+[164 / 198]
+[169 / 198]
+[172 / 198]
+[174 / 198]
+[178 / 198]
+[179 / 198]
+[182 / 198]
+[183 / 198]
+[187 / 198] OfferCoreTests-product
+[192 / 198] OfferCoreTests-product
+[194 / 198] OfferCoreTests-product
+Build complete! (13.47 sec)
+Test Suite 'All tests' started at 2026-11-19 14:29:01.927.
+Test Suite 'OfferCoreTests.xctest' started at 2026-11-19 14:29:01.928.
+Test Suite 'BaselineTests' started at 2026-11-19 14:29:01.928.
+Test Case '-[OfferCoreTests.BaselineTests testIdentifierFallback]' started.
+Test Case '-[OfferCoreTests.BaselineTests testIdentifierFallback]' passed (0.002 seconds).
+Test Case '-[OfferCoreTests.BaselineTests testMissingAndUnrecognizedMetadataAbstain]' started.
+Test Case '-[OfferCoreTests.BaselineTests testMissingAndUnrecognizedMetadataAbstain]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.BaselineTests testStructuredCategoryWins]' started.
+Test Case '-[OfferCoreTests.BaselineTests testStructuredCategoryWins]' passed (0.000 seconds).
+Test Suite 'BaselineTests' passed at 2026-11-19 14:29:01.931.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'PipelineTests' started at 2026-11-19 14:29:01.931.
+Test Case '-[OfferCoreTests.PipelineTests testAccountSwitchAndProfileClockRequireRefresh]' started.
+Test Case '-[OfferCoreTests.PipelineTests testAccountSwitchAndProfileClockRequireRefresh]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testAmbiguityOOVAndWordBoundaries]' started.
+Test Case '-[OfferCoreTests.PipelineTests testAmbiguityOOVAndWordBoundaries]' passed (0.004 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testCombinedPriorityAndFallback]' started.
+Test Case '-[OfferCoreTests.PipelineTests testCombinedPriorityAndFallback]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testDuplicateAndConflictAreOrderIndependent]' started.
+Test Case '-[OfferCoreTests.PipelineTests testDuplicateAndConflictAreOrderIndependent]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testEligibilityCannotBeInferred]' started.
+Test Case '-[OfferCoreTests.PipelineTests testEligibilityCannotBeInferred]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testExplanationsAndNeutralFallback]' started.
+Test Case '-[OfferCoreTests.PipelineTests testExplanationsAndNeutralFallback]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testFrozenFixture]' started.
+Test Case '-[OfferCoreTests.PipelineTests testFrozenFixture]' passed (0.002 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testHandCalculatedMetrics]' started.
+Test Case '-[OfferCoreTests.PipelineTests testHandCalculatedMetrics]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testNativeTokenizerAndAliases]' started.
+Test Case '-[OfferCoreTests.PipelineTests testNativeTokenizerAndAliases]' passed (0.001 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testOfferValidityCurrencyAndDuplicateConflicts]' started.
+Test Case '-[OfferCoreTests.PipelineTests testOfferValidityCurrencyAndDuplicateConflicts]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testOverflowFailsRatherThanWraps]' started.
+Test Case '-[OfferCoreTests.PipelineTests testOverflowFailsRatherThanWraps]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testRankingAndStableTies]' started.
+Test Case '-[OfferCoreTests.PipelineTests testRankingAndStableTies]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testRefundReversalPendingAndNegative]' started.
+Test Case '-[OfferCoreTests.PipelineTests testRefundReversalPendingAndNegative]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testScopesWindowAndUnknownAccounting]' started.
+Test Case '-[OfferCoreTests.PipelineTests testScopesWindowAndUnknownAccounting]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testSeededGenerationAndAuthoredLabels]' started.
+Test Case '-[OfferCoreTests.PipelineTests testSeededGenerationAndAuthoredLabels]' passed (0.001 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testStaleFutureExpiredAndWrongAccountSnapshots]' started.
+Test Case '-[OfferCoreTests.PipelineTests testStaleFutureExpiredAndWrongAccountSnapshots]' passed (0.000 seconds).
+Test Suite 'PipelineTests' passed at 2026-11-19 14:29:01.942.
+	 Executed 16 tests, with 0 failures (0 unexpected) in 0.010 (0.011) seconds
+Test Suite 'OfferCoreTests.xctest' passed at 2026-11-19 14:29:01.942.
+	 Executed 19 tests, with 0 failures (0 unexpected) in 0.012 (0.014) seconds
+Test Suite 'All tests' passed at 2026-11-19 14:29:01.942.
+	 Executed 19 tests, with 0 failures (0 unexpected) in 0.012 (0.015) seconds
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

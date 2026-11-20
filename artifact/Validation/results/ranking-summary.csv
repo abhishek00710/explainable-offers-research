@@ -1,0 +1,16 @@
+cohort,method,total_scenarios,quality_n,excluded_n,eligible_set_passes,mean_ndcg_at_3,mean_precision_at_3
+original8,eligible_id,8,8,0,8,0.602084,0.500000
+original8,metadata,8,8,0,8,0.800465,0.500000
+original8,tokens,8,8,0,8,0.846598,0.500000
+original8,combined,8,8,0,8,0.800465,0.500000
+original8,conflict_abstain,8,8,0,8,0.846598,0.500000
+new,eligible_id,16,12,4,16,0.611728,0.361111
+new,metadata,16,12,4,16,0.669756,0.361111
+new,tokens,16,12,4,16,0.711423,0.361111
+new,combined,16,12,4,16,0.711423,0.361111
+new,conflict_abstain,16,12,4,16,0.628090,0.333333
+pooled,eligible_id,24,20,4,24,0.607871,0.416667
+pooled,metadata,24,20,4,24,0.722040,0.416667
+pooled,tokens,24,20,4,24,0.765493,0.416667
+pooled,combined,24,20,4,24,0.747040,0.416667
+pooled,conflict_abstain,24,20,4,24,0.715493,0.400000

@@ -1,0 +1,46 @@
+warning: <USER_HOME>/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'explainableoffers': failed storing manifest for 'explainableoffers' in cache: attempt to write a readonly database
+Building for debugging...
+[1 / 23]
+[2 / 24] OfferCore
+[8 / 30] OfferCore
+[14 / 34] OfferCore
+[21 / 39] Evaluation
+[33 / 40] Evaluation
+[39 / 42] SyntheticData
+error: SwiftCompile normal arm64 <USER_HOME>/Documents/Playground/ExplainableOffers/Sources/Experiments/main.swift failed with a nonzero exit code. Command line:     cd <USER_HOME>/Documents/Playground
+    builtin-SwiftPerFileCompile main.swift
+<USER_HOME>/Documents/Playground/ExplainableOffers/Sources/Experiments/main.swift:140:25: error: 'Method' is ambiguous for type lookup in this context
+138 |     for n in [100,1000,10000] {
+139 |         let ts = try Generator.generate(count: n, seed: seed).map(\.transaction)
+140 |         var durations: [Method: [Double]] = [:]
+    |                         `- error: 'Method' is ambiguous for type lookup in this context
+141 |         for trial in -warmups..<trials {
+142 |             // Rotate method order to reduce a fixed order bias; deterministic, not randomized statistical control.
+
+OfferCore.Method:1:13: note: found this candidate
+ 1 | public enum Method : String, CaseIterable, Sendable {
+   |             `- note: found this candidate
+ 2 |     case metadata
+ 3 |     case tokens
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/objc/runtime.h:44:29: note: found this candidate
+  42 | 
+  43 | /// An opaque type that represents a method in a class definition.
+  44 | typedef struct objc_method *Method;
+     |                             `- note: found this candidate
+  45 | 
+  46 | /// An opaque type that represents an instance variable.
+
+<USER_HOME>/Documents/Playground/ExplainableOffers/Sources/Experiments/main.swift:156:22: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+154 |         for method in Method.allCases {
+155 |             let ds = durations[method]!, mean = ds.reduce(0,+)/Double(trials)
+156 |             let sd = sqrt(ds.map { pow($0-mean,2) }.reduce(0,+)/Double(trials-1))
+    |                      `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+157 |             let values = [ds.min()!,Metrics.percentile(ds,0.5),Metrics.percentile(ds,0.9),ds.max()!,mean,sd].map(f)
+158 |             bench.append(["\(n)",method.rawValue,"\(warmups)","\(trials)"]+values)
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c -primary-file <USER_HOME>/Documents/Playground/ExplainableOffers/Sources/Experiments/main.swift -emit-dependencies-path /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/offer-experiments-p.build/Objects-normal/arm64/main.d -emit-const-values-path /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/offer-experiments-p.build/Objects-normal/arm64/main.swiftconstvalues -emit-reference-dependencies-path /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/offer-experiments-p.build/Objects-normal/arm64/main.swiftdeps -serialize-diagnostics-path /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/offer-experiments-p.build/Objects-normal/arm64/main.dia -target arm64-apple-macos13.0 -disable-cross-import-overlay-search -swift-module-cross-import Darwin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Darwin.swiftcrossimport/xlocale.swiftoverlay -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/offer-experiments-p.build/Objects-normal/arm64/Experiments-dependencies-1.json -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk -I /tmp/explainable-offers-build/out/Products/Debug -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib -F /tmp/explainable-offers-build/out/Products/Debug/PackageFrameworks -F /tmp/explainable-offers-build/out/Products/Debug -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -module-cache-path /tmp/explainable-offers-build/out/Intermediates.noindex/SwiftExplicitPrecompiledModules -no-color-diagnostics -Xcc -fno-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -swift-version 6 -Onone -D SWIFT_PACKAGE -D DEBUG -D Xcode -serialize-debugging-options -enable-experimental-feature DebugDescriptionMacro -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /tmp/explainable-offers-build/out/ModuleCache.noindex/Session.modulevalidation -disable-sandbox -Xcc -working-directory -Xcc <USER_HOME>/Documents/Playground -enable-anonymous-context-mangled-names -file-compilation-dir <USER_HOME>/Documents/Playground -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /tmp/explainable-offers-build/out/SDKStatCaches.noindex/macosx27.2-26B118-a0facfad118c1a7a18f0aad9463f6549a7ff82d74745d5ef33555b35c4238456.sdkstatcache -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -Xcc -I/tmp/explainable-offers-build/out/Products/Debug/include -Xcc -I/tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/offer-experiments-p.build/DerivedSources-normal/arm64 -Xcc -I/tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/offer-experiments-p.build/DerivedSources/arm64 -Xcc -I/tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/offer-experiments-p.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -no-auto-bridging-header-chaining -module-name Experiments -package-name explainableoffers -const-gather-protocols-file /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/offer-experiments-p.build/Objects-normal/arm64/offer-experiments_const_extract_protocols.json -disable-clang-spi -clang-target arm64-apple-macos27.2 -target-sdk-version 27.2 -target-sdk-name macosx27.2 -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -o /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/offer-experiments-p.build/Objects-normal/arm64/main.o -debug-module-path /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/offer-experiments-p.build/Objects-normal/arm64/Experiments.swiftmodule -index-unit-output-path /ExplainableOffers.build/Debug/offer-experiments-p.build/Objects-normal/arm64/main.o -index-store-path /tmp/explainable-offers-build/out -index-system-modules
+error: Build failed

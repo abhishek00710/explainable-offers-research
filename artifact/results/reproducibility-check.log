@@ -1,0 +1,1 @@
+PASS: two independent runner executions produced byte-identical dataset, predictions, classification metrics, composition and ranking outputs (9 files). Timing, environment and logs intentionally excluded.

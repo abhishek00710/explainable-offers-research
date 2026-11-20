@@ -1,0 +1,1054 @@
+[
+  {
+    "caseID" : "g1",
+    "condition" : "clean",
+    "label" : "groceries",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 12391,
+      "currency" : "USD",
+      "description" : "POS Freshmart #100",
+      "id" : "s42-0",
+      "merchantID" : "m-g",
+      "status" : "posted",
+      "structuredCategory" : "groceries",
+      "timestamp" : 1799645742
+    }
+  },
+  {
+    "caseID" : "g2",
+    "condition" : "alias_variation",
+    "label" : "groceries",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 9162,
+      "currency" : "USD",
+      "description" : "SQ * FRESHMRT #043 #101",
+      "id" : "s42-1",
+      "status" : "posted",
+      "timestamp" : 1798323875
+    }
+  },
+  {
+    "caseID" : "g3",
+    "condition" : "oov",
+    "label" : "groceries",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 9074,
+      "currency" : "USD",
+      "description" : "POS Orchard Basket #102",
+      "id" : "s42-2",
+      "status" : "posted",
+      "timestamp" : 1798166593
+    }
+  },
+  {
+    "caseID" : "g4",
+    "condition" : "ambiguous",
+    "label" : "groceries",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 1595,
+      "currency" : "USD",
+      "description" : "CARD PURCHASE * Coffee Grocery Hall #103",
+      "id" : "s42-3",
+      "status" : "posted",
+      "timestamp" : 1797822244
+    }
+  },
+  {
+    "caseID" : "g5",
+    "condition" : "identifier_only",
+    "label" : "groceries",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 12961,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Village Supermarket #104",
+      "id" : "s42-4",
+      "merchantID" : "m-g",
+      "status" : "posted",
+      "timestamp" : 1799637753
+    }
+  },
+  {
+    "caseID" : "g6",
+    "condition" : "incorrect_metadata",
+    "label" : "groceries",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 7741,
+      "currency" : "USD",
+      "description" : "Grocery Central",
+      "id" : "s42-5",
+      "status" : "posted",
+      "structuredCategory" : "dining",
+      "timestamp" : 1799589675
+    }
+  },
+  {
+    "caseID" : "d1",
+    "condition" : "clean",
+    "label" : "dining",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 6485,
+      "currency" : "USD",
+      "description" : "CARD PURCHASE * Harbor Cafe",
+      "id" : "s42-6",
+      "merchantID" : "m-d",
+      "status" : "posted",
+      "structuredCategory" : "dining",
+      "timestamp" : 1797888203
+    }
+  },
+  {
+    "caseID" : "d2",
+    "condition" : "alias_variation",
+    "label" : "dining",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 7111,
+      "currency" : "USD",
+      "description" : "POS Cofee & Sons #107",
+      "id" : "s42-7",
+      "status" : "posted",
+      "timestamp" : 1798524299
+    }
+  },
+  {
+    "caseID" : "d3",
+    "condition" : "oov",
+    "label" : "dining",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 8258,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Juniper Table",
+      "id" : "s42-8",
+      "status" : "posted",
+      "timestamp" : 1798152875
+    }
+  },
+  {
+    "caseID" : "d4",
+    "condition" : "ambiguous",
+    "label" : "dining",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 17893,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Metro Bistro #109",
+      "id" : "s42-9",
+      "status" : "posted",
+      "timestamp" : 1797966656
+    }
+  },
+  {
+    "caseID" : "d5",
+    "condition" : "identifier_only",
+    "label" : "dining",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 11837,
+      "currency" : "USD",
+      "description" : "SQ * Copper Spoon",
+      "id" : "s42-10",
+      "merchantID" : "m-d",
+      "status" : "posted",
+      "timestamp" : 1799274356
+    }
+  },
+  {
+    "caseID" : "d6",
+    "condition" : "incorrect_metadata",
+    "label" : "dining",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 13550,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Coffee House",
+      "id" : "s42-11",
+      "status" : "posted",
+      "structuredCategory" : "shopping",
+      "timestamp" : 1798736214
+    }
+  },
+  {
+    "caseID" : "t1",
+    "condition" : "clean",
+    "label" : "transport",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 16435,
+      "currency" : "USD",
+      "description" : "SQ * City Transit #112",
+      "id" : "s42-12",
+      "merchantID" : "m-t",
+      "status" : "posted",
+      "structuredCategory" : "transport",
+      "timestamp" : 1797637311
+    }
+  },
+  {
+    "caseID" : "t2",
+    "condition" : "punctuation",
+    "label" : "transport",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 6687,
+      "currency" : "USD",
+      "description" : "SQ * METRO—Rail!",
+      "id" : "s42-13",
+      "status" : "posted",
+      "timestamp" : 1799910731
+    }
+  },
+  {
+    "caseID" : "t3",
+    "condition" : "oov",
+    "label" : "transport",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 5054,
+      "currency" : "USD",
+      "description" : "POS Zephyr Mobility #114",
+      "id" : "s42-14",
+      "status" : "posted",
+      "timestamp" : 1798340048
+    }
+  },
+  {
+    "caseID" : "t4",
+    "condition" : "ambiguous",
+    "label" : "transport",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 12042,
+      "currency" : "USD",
+      "description" : "Taxi Coffee Express #115",
+      "id" : "s42-15",
+      "status" : "posted",
+      "timestamp" : 1798723898
+    }
+  },
+  {
+    "caseID" : "t5",
+    "condition" : "identifier_only",
+    "label" : "transport",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 15223,
+      "currency" : "USD",
+      "description" : "CARD PURCHASE * Blue Route #116",
+      "id" : "s42-16",
+      "merchantID" : "m-t",
+      "status" : "posted",
+      "timestamp" : 1798543916
+    }
+  },
+  {
+    "caseID" : "t6",
+    "condition" : "incorrect_metadata",
+    "label" : "transport",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 6922,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Transit Pass",
+      "id" : "s42-17",
+      "status" : "posted",
+      "structuredCategory" : "utilities",
+      "timestamp" : 1798699574
+    }
+  },
+  {
+    "caseID" : "s1",
+    "condition" : "clean",
+    "label" : "shopping",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 14384,
+      "currency" : "USD",
+      "description" : "Cedar Apparel",
+      "id" : "s42-18",
+      "merchantID" : "m-s",
+      "status" : "posted",
+      "structuredCategory" : "shopping",
+      "timestamp" : 1798645630
+    }
+  },
+  {
+    "caseID" : "s2",
+    "condition" : "punctuation",
+    "label" : "shopping",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 10194,
+      "currency" : "USD",
+      "description" : "POS BOOKSHOP \/ Outlet",
+      "id" : "s42-19",
+      "status" : "posted",
+      "timestamp" : 1799006276
+    }
+  },
+  {
+    "caseID" : "s3",
+    "condition" : "oov",
+    "label" : "shopping",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 9441,
+      "currency" : "USD",
+      "description" : "POS Velvet Finch",
+      "id" : "s42-20",
+      "status" : "posted",
+      "timestamp" : 1799892860
+    }
+  },
+  {
+    "caseID" : "s4",
+    "condition" : "ambiguous",
+    "label" : "shopping",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 10782,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Boutique Cafe #121",
+      "id" : "s42-21",
+      "status" : "posted",
+      "timestamp" : 1798069926
+    }
+  },
+  {
+    "caseID" : "s5",
+    "condition" : "identifier_only",
+    "label" : "shopping",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 1854,
+      "currency" : "USD",
+      "description" : "CARD PURCHASE * Amber Goods",
+      "id" : "s42-22",
+      "merchantID" : "m-s",
+      "status" : "posted",
+      "timestamp" : 1799444841
+    }
+  },
+  {
+    "caseID" : "s6",
+    "condition" : "incorrect_metadata",
+    "label" : "shopping",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 916,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Electronics Store",
+      "id" : "s42-23",
+      "status" : "posted",
+      "structuredCategory" : "groceries",
+      "timestamp" : 1798852834
+    }
+  },
+  {
+    "caseID" : "u1",
+    "condition" : "clean",
+    "label" : "utilities",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 6256,
+      "currency" : "USD",
+      "description" : "POS Valley Electric #124",
+      "id" : "s42-24",
+      "merchantID" : "m-u",
+      "status" : "posted",
+      "structuredCategory" : "utilities",
+      "timestamp" : 1799336245
+    }
+  },
+  {
+    "caseID" : "u2",
+    "condition" : "punctuation",
+    "label" : "utilities",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 4547,
+      "currency" : "USD",
+      "description" : "SQ * WATER::Broadband #125",
+      "id" : "s42-25",
+      "status" : "posted",
+      "timestamp" : 1798927232
+    }
+  },
+  {
+    "caseID" : "u3",
+    "condition" : "oov",
+    "label" : "utilities",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 18211,
+      "currency" : "USD",
+      "description" : "CARD PURCHASE * Lumen Service #126",
+      "id" : "s42-26",
+      "status" : "posted",
+      "timestamp" : 1797520414
+    }
+  },
+  {
+    "caseID" : "u4",
+    "condition" : "ambiguous",
+    "label" : "utilities",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 15384,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Water Metro Service #127",
+      "id" : "s42-27",
+      "status" : "posted",
+      "timestamp" : 1799216791
+    }
+  },
+  {
+    "caseID" : "u5",
+    "condition" : "identifier_only",
+    "label" : "utilities",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 5505,
+      "currency" : "USD",
+      "description" : "SQ * Nimbus Supply",
+      "id" : "s42-28",
+      "merchantID" : "m-u",
+      "status" : "posted",
+      "timestamp" : 1797993511
+    }
+  },
+  {
+    "caseID" : "u6",
+    "condition" : "incorrect_metadata",
+    "label" : "utilities",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 12678,
+      "currency" : "USD",
+      "description" : "SQ * Utility Bill",
+      "id" : "s42-29",
+      "status" : "posted",
+      "structuredCategory" : "transport",
+      "timestamp" : 1798932999
+    }
+  },
+  {
+    "caseID" : "x1",
+    "condition" : "out_of_scope",
+    "label" : "unknown",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 12378,
+      "currency" : "USD",
+      "description" : "SQ * P2P Transfer #130",
+      "id" : "s42-30",
+      "status" : "posted",
+      "timestamp" : 1799443402
+    }
+  },
+  {
+    "caseID" : "x2",
+    "condition" : "keyword_trap",
+    "label" : "unknown",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 8051,
+      "currency" : "USD",
+      "description" : "POS Coffee Foundation Donation",
+      "id" : "s42-31",
+      "status" : "posted",
+      "timestamp" : 1799022740
+    }
+  },
+  {
+    "caseID" : "x3",
+    "condition" : "oov",
+    "label" : "unknown",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 8874,
+      "currency" : "USD",
+      "description" : "DEBIT \/ ZXQ 8891 #132",
+      "id" : "s42-32",
+      "status" : "posted",
+      "timestamp" : 1798625417
+    }
+  },
+  {
+    "caseID" : "x4",
+    "condition" : "ambiguous",
+    "label" : "unknown",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 16761,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Café Water Relief #133",
+      "id" : "s42-33",
+      "status" : "posted",
+      "timestamp" : 1798429395
+    }
+  },
+  {
+    "caseID" : "x5",
+    "condition" : "out_of_scope",
+    "label" : "unknown",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 17058,
+      "currency" : "USD",
+      "description" : "CARD PURCHASE * Clinic Invoice #134",
+      "id" : "s42-34",
+      "merchantID" : "unregistered",
+      "status" : "posted",
+      "timestamp" : 1799012099
+    }
+  },
+  {
+    "caseID" : "x6",
+    "condition" : "incorrect_metadata",
+    "label" : "unknown",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 6646,
+      "currency" : "USD",
+      "description" : "Internal Transfer",
+      "id" : "s42-35",
+      "status" : "posted",
+      "structuredCategory" : "groceries",
+      "timestamp" : 1799307176
+    }
+  },
+  {
+    "caseID" : "g1",
+    "condition" : "clean",
+    "label" : "groceries",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 18662,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Freshmart #136",
+      "id" : "s42-36",
+      "merchantID" : "m-g",
+      "status" : "posted",
+      "structuredCategory" : "groceries",
+      "timestamp" : 1799296935
+    }
+  },
+  {
+    "caseID" : "g2",
+    "condition" : "alias_variation",
+    "label" : "groceries",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 1625,
+      "currency" : "USD",
+      "description" : "SQ * FRESHMRT #043",
+      "id" : "s42-37",
+      "status" : "posted",
+      "timestamp" : 1799492181
+    }
+  },
+  {
+    "caseID" : "g3",
+    "condition" : "oov",
+    "label" : "groceries",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 6959,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Orchard Basket",
+      "id" : "s42-38",
+      "status" : "posted",
+      "timestamp" : 1798498532
+    }
+  },
+  {
+    "caseID" : "g4",
+    "condition" : "ambiguous",
+    "label" : "groceries",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 13349,
+      "currency" : "USD",
+      "description" : "Coffee Grocery Hall",
+      "id" : "s42-39",
+      "status" : "posted",
+      "timestamp" : 1799892205
+    }
+  },
+  {
+    "caseID" : "g5",
+    "condition" : "identifier_only",
+    "label" : "groceries",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 14274,
+      "currency" : "USD",
+      "description" : "PAYPAL * Village Supermarket #140",
+      "id" : "s42-40",
+      "merchantID" : "m-g",
+      "status" : "posted",
+      "timestamp" : 1798398798
+    }
+  },
+  {
+    "caseID" : "g6",
+    "condition" : "incorrect_metadata",
+    "label" : "groceries",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 6735,
+      "currency" : "USD",
+      "description" : "PAYPAL * Grocery Central",
+      "id" : "s42-41",
+      "status" : "posted",
+      "structuredCategory" : "dining",
+      "timestamp" : 1797688765
+    }
+  },
+  {
+    "caseID" : "d1",
+    "condition" : "clean",
+    "label" : "dining",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 15171,
+      "currency" : "USD",
+      "description" : "POS Harbor Cafe #142",
+      "id" : "s42-42",
+      "merchantID" : "m-d",
+      "status" : "posted",
+      "structuredCategory" : "dining",
+      "timestamp" : 1799749827
+    }
+  },
+  {
+    "caseID" : "d2",
+    "condition" : "alias_variation",
+    "label" : "dining",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 12089,
+      "currency" : "USD",
+      "description" : "Cofee & Sons #143",
+      "id" : "s42-43",
+      "status" : "posted",
+      "timestamp" : 1798035304
+    }
+  },
+  {
+    "caseID" : "d3",
+    "condition" : "oov",
+    "label" : "dining",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 11988,
+      "currency" : "USD",
+      "description" : "Juniper Table",
+      "id" : "s42-44",
+      "status" : "posted",
+      "timestamp" : 1799317691
+    }
+  },
+  {
+    "caseID" : "d4",
+    "condition" : "ambiguous",
+    "label" : "dining",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 3723,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Metro Bistro",
+      "id" : "s42-45",
+      "status" : "posted",
+      "timestamp" : 1799954711
+    }
+  },
+  {
+    "caseID" : "d5",
+    "condition" : "identifier_only",
+    "label" : "dining",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 2797,
+      "currency" : "USD",
+      "description" : "POS Copper Spoon",
+      "id" : "s42-46",
+      "merchantID" : "m-d",
+      "status" : "posted",
+      "timestamp" : 1798987610
+    }
+  },
+  {
+    "caseID" : "d6",
+    "condition" : "incorrect_metadata",
+    "label" : "dining",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 6331,
+      "currency" : "USD",
+      "description" : "CARD PURCHASE * Coffee House #147",
+      "id" : "s42-47",
+      "status" : "posted",
+      "structuredCategory" : "shopping",
+      "timestamp" : 1799651288
+    }
+  },
+  {
+    "caseID" : "t1",
+    "condition" : "clean",
+    "label" : "transport",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 7922,
+      "currency" : "USD",
+      "description" : "POS City Transit",
+      "id" : "s42-48",
+      "merchantID" : "m-t",
+      "status" : "posted",
+      "structuredCategory" : "transport",
+      "timestamp" : 1799477576
+    }
+  },
+  {
+    "caseID" : "t2",
+    "condition" : "punctuation",
+    "label" : "transport",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 7637,
+      "currency" : "USD",
+      "description" : "POS METRO—Rail!",
+      "id" : "s42-49",
+      "status" : "posted",
+      "timestamp" : 1799797034
+    }
+  },
+  {
+    "caseID" : "t3",
+    "condition" : "oov",
+    "label" : "transport",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 11073,
+      "currency" : "USD",
+      "description" : "Zephyr Mobility",
+      "id" : "s42-50",
+      "status" : "posted",
+      "timestamp" : 1798334466
+    }
+  },
+  {
+    "caseID" : "t4",
+    "condition" : "ambiguous",
+    "label" : "transport",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 17653,
+      "currency" : "USD",
+      "description" : "Taxi Coffee Express #151",
+      "id" : "s42-51",
+      "status" : "posted",
+      "timestamp" : 1799397310
+    }
+  },
+  {
+    "caseID" : "t5",
+    "condition" : "identifier_only",
+    "label" : "transport",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 17679,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Blue Route",
+      "id" : "s42-52",
+      "merchantID" : "m-t",
+      "status" : "posted",
+      "timestamp" : 1798369501
+    }
+  },
+  {
+    "caseID" : "t6",
+    "condition" : "incorrect_metadata",
+    "label" : "transport",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 13455,
+      "currency" : "USD",
+      "description" : "POS Transit Pass #153",
+      "id" : "s42-53",
+      "status" : "posted",
+      "structuredCategory" : "utilities",
+      "timestamp" : 1798512415
+    }
+  },
+  {
+    "caseID" : "s1",
+    "condition" : "clean",
+    "label" : "shopping",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 18425,
+      "currency" : "USD",
+      "description" : "CARD PURCHASE * Cedar Apparel #154",
+      "id" : "s42-54",
+      "merchantID" : "m-s",
+      "status" : "posted",
+      "structuredCategory" : "shopping",
+      "timestamp" : 1799987829
+    }
+  },
+  {
+    "caseID" : "s2",
+    "condition" : "punctuation",
+    "label" : "shopping",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 5084,
+      "currency" : "USD",
+      "description" : "DEBIT \/ BOOKSHOP \/ Outlet",
+      "id" : "s42-55",
+      "status" : "posted",
+      "timestamp" : 1799676330
+    }
+  },
+  {
+    "caseID" : "s3",
+    "condition" : "oov",
+    "label" : "shopping",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 6473,
+      "currency" : "USD",
+      "description" : "CARD PURCHASE * Velvet Finch #156",
+      "id" : "s42-56",
+      "status" : "posted",
+      "timestamp" : 1798711609
+    }
+  },
+  {
+    "caseID" : "s4",
+    "condition" : "ambiguous",
+    "label" : "shopping",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 9014,
+      "currency" : "USD",
+      "description" : "PAYPAL * Boutique Cafe",
+      "id" : "s42-57",
+      "status" : "posted",
+      "timestamp" : 1799048052
+    }
+  },
+  {
+    "caseID" : "s5",
+    "condition" : "identifier_only",
+    "label" : "shopping",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 8932,
+      "currency" : "USD",
+      "description" : "POS Amber Goods #158",
+      "id" : "s42-58",
+      "merchantID" : "m-s",
+      "status" : "posted",
+      "timestamp" : 1799894230
+    }
+  },
+  {
+    "caseID" : "s6",
+    "condition" : "incorrect_metadata",
+    "label" : "shopping",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 892,
+      "currency" : "USD",
+      "description" : "SQ * Electronics Store #159",
+      "id" : "s42-59",
+      "status" : "posted",
+      "structuredCategory" : "groceries",
+      "timestamp" : 1797982860
+    }
+  },
+  {
+    "caseID" : "u1",
+    "condition" : "clean",
+    "label" : "utilities",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 6329,
+      "currency" : "USD",
+      "description" : "PAYPAL * Valley Electric #160",
+      "id" : "s42-60",
+      "merchantID" : "m-u",
+      "status" : "posted",
+      "structuredCategory" : "utilities",
+      "timestamp" : 1798867473
+    }
+  },
+  {
+    "caseID" : "u2",
+    "condition" : "punctuation",
+    "label" : "utilities",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 9925,
+      "currency" : "USD",
+      "description" : "PAYPAL * WATER::Broadband",
+      "id" : "s42-61",
+      "status" : "posted",
+      "timestamp" : 1799689583
+    }
+  },
+  {
+    "caseID" : "u3",
+    "condition" : "oov",
+    "label" : "utilities",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 5976,
+      "currency" : "USD",
+      "description" : "CARD PURCHASE * Lumen Service #162",
+      "id" : "s42-62",
+      "status" : "posted",
+      "timestamp" : 1797709229
+    }
+  },
+  {
+    "caseID" : "u4",
+    "condition" : "ambiguous",
+    "label" : "utilities",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 15091,
+      "currency" : "USD",
+      "description" : "Water Metro Service #163",
+      "id" : "s42-63",
+      "status" : "posted",
+      "timestamp" : 1798862452
+    }
+  },
+  {
+    "caseID" : "u5",
+    "condition" : "identifier_only",
+    "label" : "utilities",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 7395,
+      "currency" : "USD",
+      "description" : "PAYPAL * Nimbus Supply #164",
+      "id" : "s42-64",
+      "merchantID" : "m-u",
+      "status" : "posted",
+      "timestamp" : 1799835074
+    }
+  },
+  {
+    "caseID" : "u6",
+    "condition" : "incorrect_metadata",
+    "label" : "utilities",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 13654,
+      "currency" : "USD",
+      "description" : "Utility Bill #165",
+      "id" : "s42-65",
+      "status" : "posted",
+      "structuredCategory" : "transport",
+      "timestamp" : 1798301448
+    }
+  },
+  {
+    "caseID" : "x1",
+    "condition" : "out_of_scope",
+    "label" : "unknown",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 8216,
+      "currency" : "USD",
+      "description" : "PAYPAL * P2P Transfer #166",
+      "id" : "s42-66",
+      "status" : "posted",
+      "timestamp" : 1798838461
+    }
+  },
+  {
+    "caseID" : "x2",
+    "condition" : "keyword_trap",
+    "label" : "unknown",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 7000,
+      "currency" : "USD",
+      "description" : "DEBIT \/ Coffee Foundation Donation",
+      "id" : "s42-67",
+      "status" : "posted",
+      "timestamp" : 1798736247
+    }
+  },
+  {
+    "caseID" : "x3",
+    "condition" : "oov",
+    "label" : "unknown",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 12571,
+      "currency" : "USD",
+      "description" : "CARD PURCHASE * ZXQ 8891 #168",
+      "id" : "s42-68",
+      "status" : "posted",
+      "timestamp" : 1799430268
+    }
+  },
+  {
+    "caseID" : "x4",
+    "condition" : "ambiguous",
+    "label" : "unknown",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 19973,
+      "currency" : "USD",
+      "description" : "PAYPAL * Café Water Relief",
+      "id" : "s42-69",
+      "status" : "posted",
+      "timestamp" : 1799764284
+    }
+  },
+  {
+    "caseID" : "x5",
+    "condition" : "out_of_scope",
+    "label" : "unknown",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 8766,
+      "currency" : "USD",
+      "description" : "SQ * Clinic Invoice",
+      "id" : "s42-70",
+      "merchantID" : "unregistered",
+      "status" : "posted",
+      "timestamp" : 1799712816
+    }
+  },
+  {
+    "caseID" : "x6",
+    "condition" : "incorrect_metadata",
+    "label" : "unknown",
+    "transaction" : {
+      "accountID" : "A",
+      "amountCents" : 7701,
+      "currency" : "USD",
+      "description" : "CARD PURCHASE * Internal Transfer",
+      "id" : "s42-71",
+      "status" : "posted",
+      "structuredCategory" : "groceries",
+      "timestamp" : 1797590707
+    }
+  }
+]

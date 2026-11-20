@@ -1,0 +1,1 @@
+PASS: all 128 inventoried source-project files remain byte-identical, including the locally retained Finder metadata file. No original source, output, report or log was modified.

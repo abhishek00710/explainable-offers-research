@@ -1,0 +1,6 @@
+PASS: preserved all 64 original files; baseline module copies are byte-identical.
+PASS: labels match frozen catalog; exact stratified corruption rates, nested sets and fixed wrong categories verified. Preparation imports no classifier; authorship is not blinded.
+PASS: 354240 raw predictions; 656 scope summaries; all 23616 confusion cells and 3936 per-class rows independently recomputed. Original predictions reproduced; token predictions invariant to intervention.
+PASS: all 120 ranking candidate sets and independently calculated scores; original judgments unchanged; 20 safety/zero-gain rows excluded from quality means.
+No statistical significance or population prevalence inferred. Independence is procedural, not independent/blinded annotation.
+PASS: seed aggregates and ranking cohort summaries independently checked.

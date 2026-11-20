@@ -1,0 +1,85 @@
+warning: <USER_HOME>/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'explainableoffers': failed storing manifest for 'explainableoffers' in cache: attempt to write a readonly database
+Building for debugging...
+[Planning 23 / 152]
+[Planning deferred tasks]
+[29 / 55] ExplainableOffers_SyntheticData
+[29 / 55] OfferCore
+[30 / 60]
+[34 / 60] OfferCore
+[40 / 60] OfferCore
+[41 / 61] OfferCore
+[43 / 61] Evaluation
+error: SwiftCompile normal arm64 failed with a nonzero exit code. Command line:     cd <USER_HOME>/Documents/Playground
+    
+[48 / 66] Evaluation<USER_HOME>/Documents/Playground/ExplainableOffers/Sources/Evaluation/Metrics.swift:15:41: error: 'Category' is ambiguous for type lookup in this context
+13 | }
+14 | public enum Metrics {
+15 |     public static func perClass(truth: [Category], predictions: [Category], category: Category) -> ClassMetrics {
+   |                                         `- error: 'Category' is ambiguous for type lookup in this context
+16 |         precondition(truth.count == predictions.count)
+17 |         var tp = 0, fp = 0, fn = 0
+
+OfferCore.Category:1:13: note: found this candidate
+ 1 | public enum Category : String, Codable, CaseIterable, Sendable {
+   |             `- note: found this candidate
+ 2 |     case groceries
+ 3 |     case dining
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/objc/runtime.h:50:31: note: found this candidate
+  48 | 
+  49 | /// An opaque type that represents a category.
+  50 | typedef struct objc_category *Category;
+     |                               `- note: found this candidate
+  51 | 
+  52 | /// An opaque type that represents an Objective-C declared property.
+
+<USER_HOME>/Documents/Playground/ExplainableOffers/Sources/Evaluation/Metrics.swift:15:66: error: 'Category' is ambiguous for type lookup in this context
+13 | }
+14 | public enum Metrics {
+15 |     public static func perClass(truth: [Category], predictions: [Category], category: Category) -> ClassMetrics {
+   |                                                                  `- error: 'Category' is ambiguous for type lookup in this context
+16 |         precondition(truth.count == predictions.count)
+17 |         var tp = 0, fp = 0, fn = 0
+
+OfferCore.Category:1:13: note: found this candidate
+ 1 | public enum Category : String, Codable, CaseIterable, Sendable {
+   |             `- note: found this candidate
+ 2 |     case groceries
+ 3 |     case dining
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/objc/runtime.h:50:31: note: found this candidate
+  48 | 
+  49 | /// An opaque type that represents a category.
+  50 | typedef struct objc_category *Category;
+     |                               `- note: found this candidate
+  51 | 
+  52 | /// An opaque type that represents an Objective-C declared property.
+
+<USER_HOME>/Documents/Playground/ExplainableOffers/Sources/Evaluation/Metrics.swift:15:87: error: 'Category' is ambiguous for type lookup in this context
+13 | }
+14 | public enum Metrics {
+15 |     public static func perClass(truth: [Category], predictions: [Category], category: Category) -> ClassMetrics {
+   |                                                                                       `- error: 'Category' is ambiguous for type lookup in this context
+16 |         precondition(truth.count == predictions.count)
+17 |         var tp = 0, fp = 0, fn = 0
+
+OfferCore.Category:1:13: note: found this candidate
+ 1 | public enum Category : String, Codable, CaseIterable, Sendable {
+   |             `- note: found this candidate
+ 2 |     case groceries
+ 3 |     case dining
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/objc/runtime.h:50:31: note: found this candidate
+  48 | 
+  49 | /// An opaque type that represents a category.
+  50 | typedef struct objc_category *Category;
+     |                               `- note: found this candidate
+  51 | 
+  52 | /// An opaque type that represents an Objective-C declared property.
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -emit-module -experimental-skip-non-inlinable-function-bodies-without-types <USER_HOME>/Documents/Playground/ExplainableOffers/Sources/Evaluation/Metrics.swift -target arm64-apple-macos13.0 -disable-cross-import-overlay-search -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/Evaluation-t.build/Objects-normal/arm64/Evaluation-dependencies-1.json -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk -I /tmp/explainable-offers-build/out/Products/Debug -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib -F /tmp/explainable-offers-build/out/Products/Debug/PackageFrameworks -F /tmp/explainable-offers-build/out/Products/Debug -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -module-cache-path /tmp/explainable-offers-build/out/Intermediates.noindex/SwiftExplicitPrecompiledModules -no-color-diagnostics -Xcc -fno-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -swift-version 6 -Onone -D SWIFT_PACKAGE -D DEBUG -D SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -D Xcode -serialize-debugging-options -enable-experimental-feature DebugDescriptionMacro -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /tmp/explainable-offers-build/out/ModuleCache.noindex/Session.modulevalidation -disable-sandbox -Xcc -working-directory -Xcc <USER_HOME>/Documents/Playground -enable-anonymous-context-mangled-names -file-compilation-dir <USER_HOME>/Documents/Playground -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /tmp/explainable-offers-build/out/SDKStatCaches.noindex/macosx27.2-26B118-a0facfad118c1a7a18f0aad9463f6549a7ff82d74745d5ef33555b35c4238456.sdkstatcache -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -Xcc -I/tmp/explainable-offers-build/out/Products/Debug/include -Xcc -I/tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/Evaluation-t.build/DerivedSources-normal/arm64 -Xcc -I/tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/Evaluation-t.build/DerivedSources/arm64 -Xcc -I/tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/Evaluation-t.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -no-auto-bridging-header-chaining -module-name Evaluation -package-name explainableoffers -const-gather-protocols-file /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/Evaluation-t.build/Objects-normal/arm64/Evaluation_const_extract_protocols.json -disable-clang-spi -clang-target arm64-apple-macos27.2 -target-sdk-version 27.2 -target-sdk-name macosx27.2 -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -emit-module-doc-path /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/Evaluation-t.build/Objects-normal/arm64/Evaluation.swiftdoc -emit-module-source-info-path /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/Evaluation-t.build/Objects-normal/arm64/Evaluation.swiftsourceinfo -emit-objc-header-path /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/Evaluation-t.build/Objects-normal/arm64/Evaluation-Swift.h -serialize-diagnostics-path /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/Evaluation-t.build/Objects-normal/arm64/Evaluation-primary-emit-module.dia -emit-dependencies-path /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/Evaluation-t.build/Objects-normal/arm64/Evaluation-primary-emit-module.d -parse-as-library -o /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/Evaluation-t.build/Objects-normal/arm64/Evaluation.swiftmodule -emit-abi-descriptor-path /tmp/explainable-offers-build/out/Intermediates.noindex/ExplainableOffers.build/Debug/Evaluation-t.build/Objects-normal/arm64/Evaluation.abi.json
+
+error: Build failed

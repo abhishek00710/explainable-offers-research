@@ -1,0 +1,77 @@
+warning: <USER_HOME>/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'validation': failed storing manifest for 'validation' in cache: attempt to write a readonly database
+Building for debugging...
+[Pre-planning 1 / 124]
+[Planning deferred tasks]
+[38 / 76]
+[39 / 77] OfferCore
+[48 / 119]
+[51 / 119]
+[56 / 119]
+[58 / 119]
+[62 / 119]
+[64 / 119]
+[67 / 119]
+[70 / 119]
+[72 / 119]
+[73 / 119]
+[81 / 119] OfferCore
+[87 / 119]
+[88 / 120] Evaluation
+[90 / 122] Evaluation
+[101 / 123]
+[102 / 125] validate-offers-product
+[104 / 125] validate-offers-product
+[107 / 125] OfferCore
+[111 / 126] validate-offers-product
+[113 / 126] validate-offers-product
+[115 / 126] ValidationTests-product
+[125 / 162]
+[131 / 162]
+[135 / 162]
+[138 / 162]
+[139 / 162]
+[141 / 162]
+[144 / 162]
+[145 / 162]
+[147 / 162]
+[148 / 162]
+[151 / 162] ValidationTests-product
+[156 / 162] ValidationTests-product
+[158 / 162] ValidationTests-product
+Build complete! (18.39 sec)
+Test Suite 'All tests' started at 2026-11-19 14:29:22.209.
+Test Suite 'ValidationTests.xctest' started at 2026-11-19 14:29:22.211.
+Test Suite 'ValidationTests' started at 2026-11-19 14:29:22.211.
+Test Case '-[ValidationTests.ValidationTests testAgreementCanStillBeWrong]' started.
+Test Case '-[ValidationTests.ValidationTests testAgreementCanStillBeWrong]' passed (0.004 seconds).
+Test Case '-[ValidationTests.ValidationTests testConflictAbstains]' started.
+Test Case '-[ValidationTests.ValidationTests testConflictAbstains]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testConflictingDuplicatesStayExcluded]' started.
+Test Case '-[ValidationTests.ValidationTests testConflictingDuplicatesStayExcluded]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testCorrectMetadataCanBeLost]' started.
+Test Case '-[ValidationTests.ValidationTests testCorrectMetadataCanBeLost]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testKnownMacroDefinitionAndUnknownDenominators]' started.
+Test Case '-[ValidationTests.ValidationTests testKnownMacroDefinitionAndUnknownDenominators]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testMissingEvidenceDoesNotCreateConflict]' started.
+Test Case '-[ValidationTests.ValidationTests testMissingEvidenceDoesNotCreateConflict]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testNativeTokenEvidence]' started.
+Test Case '-[ValidationTests.ValidationTests testNativeTokenEvidence]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testProfilePreservesLedgerGateAndUnknownTotals]' started.
+Test Case '-[ValidationTests.ValidationTests testProfilePreservesLedgerGateAndUnknownTotals]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testRankingUsesIndependentIdealSet]' started.
+Test Case '-[ValidationTests.ValidationTests testRankingUsesIndependentIdealSet]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testRegistryConflictsAlsoAbstain]' started.
+Test Case '-[ValidationTests.ValidationTests testRegistryConflictsAlsoAbstain]' passed (0.000 seconds).
+Test Suite 'ValidationTests' passed at 2026-11-19 14:29:22.219.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.006 (0.008) seconds
+Test Suite 'ValidationTests.xctest' passed at 2026-11-19 14:29:22.219.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.006 (0.008) seconds
+Test Suite 'All tests' passed at 2026-11-19 14:29:22.219.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.006 (0.010) seconds
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

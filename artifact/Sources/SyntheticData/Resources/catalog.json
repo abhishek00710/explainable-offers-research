@@ -1,0 +1,290 @@
+[
+  {
+    "caseID": "g1",
+    "label": "groceries",
+    "description": "Freshmart",
+    "merchantID": "m-g",
+    "structuredCategory": "groceries",
+    "condition": "clean"
+  },
+  {
+    "caseID": "g2",
+    "label": "groceries",
+    "description": "FRESHMRT #043",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "alias_variation"
+  },
+  {
+    "caseID": "g3",
+    "label": "groceries",
+    "description": "Orchard Basket",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "oov"
+  },
+  {
+    "caseID": "g4",
+    "label": "groceries",
+    "description": "Coffee Grocery Hall",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "ambiguous"
+  },
+  {
+    "caseID": "g5",
+    "label": "groceries",
+    "description": "Village Supermarket",
+    "merchantID": "m-g",
+    "structuredCategory": null,
+    "condition": "identifier_only"
+  },
+  {
+    "caseID": "g6",
+    "label": "groceries",
+    "description": "Grocery Central",
+    "merchantID": null,
+    "structuredCategory": "dining",
+    "condition": "incorrect_metadata"
+  },
+  {
+    "caseID": "d1",
+    "label": "dining",
+    "description": "Harbor Cafe",
+    "merchantID": "m-d",
+    "structuredCategory": "dining",
+    "condition": "clean"
+  },
+  {
+    "caseID": "d2",
+    "label": "dining",
+    "description": "Cofee & Sons",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "alias_variation"
+  },
+  {
+    "caseID": "d3",
+    "label": "dining",
+    "description": "Juniper Table",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "oov"
+  },
+  {
+    "caseID": "d4",
+    "label": "dining",
+    "description": "Metro Bistro",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "ambiguous"
+  },
+  {
+    "caseID": "d5",
+    "label": "dining",
+    "description": "Copper Spoon",
+    "merchantID": "m-d",
+    "structuredCategory": null,
+    "condition": "identifier_only"
+  },
+  {
+    "caseID": "d6",
+    "label": "dining",
+    "description": "Coffee House",
+    "merchantID": null,
+    "structuredCategory": "shopping",
+    "condition": "incorrect_metadata"
+  },
+  {
+    "caseID": "t1",
+    "label": "transport",
+    "description": "City Transit",
+    "merchantID": "m-t",
+    "structuredCategory": "transport",
+    "condition": "clean"
+  },
+  {
+    "caseID": "t2",
+    "label": "transport",
+    "description": "METRO\u2014Rail!",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "punctuation"
+  },
+  {
+    "caseID": "t3",
+    "label": "transport",
+    "description": "Zephyr Mobility",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "oov"
+  },
+  {
+    "caseID": "t4",
+    "label": "transport",
+    "description": "Taxi Coffee Express",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "ambiguous"
+  },
+  {
+    "caseID": "t5",
+    "label": "transport",
+    "description": "Blue Route",
+    "merchantID": "m-t",
+    "structuredCategory": null,
+    "condition": "identifier_only"
+  },
+  {
+    "caseID": "t6",
+    "label": "transport",
+    "description": "Transit Pass",
+    "merchantID": null,
+    "structuredCategory": "utilities",
+    "condition": "incorrect_metadata"
+  },
+  {
+    "caseID": "s1",
+    "label": "shopping",
+    "description": "Cedar Apparel",
+    "merchantID": "m-s",
+    "structuredCategory": "shopping",
+    "condition": "clean"
+  },
+  {
+    "caseID": "s2",
+    "label": "shopping",
+    "description": "BOOKSHOP / Outlet",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "punctuation"
+  },
+  {
+    "caseID": "s3",
+    "label": "shopping",
+    "description": "Velvet Finch",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "oov"
+  },
+  {
+    "caseID": "s4",
+    "label": "shopping",
+    "description": "Boutique Cafe",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "ambiguous"
+  },
+  {
+    "caseID": "s5",
+    "label": "shopping",
+    "description": "Amber Goods",
+    "merchantID": "m-s",
+    "structuredCategory": null,
+    "condition": "identifier_only"
+  },
+  {
+    "caseID": "s6",
+    "label": "shopping",
+    "description": "Electronics Store",
+    "merchantID": null,
+    "structuredCategory": "groceries",
+    "condition": "incorrect_metadata"
+  },
+  {
+    "caseID": "u1",
+    "label": "utilities",
+    "description": "Valley Electric",
+    "merchantID": "m-u",
+    "structuredCategory": "utilities",
+    "condition": "clean"
+  },
+  {
+    "caseID": "u2",
+    "label": "utilities",
+    "description": "WATER::Broadband",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "punctuation"
+  },
+  {
+    "caseID": "u3",
+    "label": "utilities",
+    "description": "Lumen Service",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "oov"
+  },
+  {
+    "caseID": "u4",
+    "label": "utilities",
+    "description": "Water Metro Service",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "ambiguous"
+  },
+  {
+    "caseID": "u5",
+    "label": "utilities",
+    "description": "Nimbus Supply",
+    "merchantID": "m-u",
+    "structuredCategory": null,
+    "condition": "identifier_only"
+  },
+  {
+    "caseID": "u6",
+    "label": "utilities",
+    "description": "Utility Bill",
+    "merchantID": null,
+    "structuredCategory": "transport",
+    "condition": "incorrect_metadata"
+  },
+  {
+    "caseID": "x1",
+    "label": "unknown",
+    "description": "P2P Transfer",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "out_of_scope"
+  },
+  {
+    "caseID": "x2",
+    "label": "unknown",
+    "description": "Coffee Foundation Donation",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "keyword_trap"
+  },
+  {
+    "caseID": "x3",
+    "label": "unknown",
+    "description": "ZXQ 8891",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "oov"
+  },
+  {
+    "caseID": "x4",
+    "label": "unknown",
+    "description": "Caf\u00e9 Water Relief",
+    "merchantID": null,
+    "structuredCategory": null,
+    "condition": "ambiguous"
+  },
+  {
+    "caseID": "x5",
+    "label": "unknown",
+    "description": "Clinic Invoice",
+    "merchantID": "unregistered",
+    "structuredCategory": null,
+    "condition": "out_of_scope"
+  },
+  {
+    "caseID": "x6",
+    "label": "unknown",
+    "description": "Internal Transfer",
+    "merchantID": null,
+    "structuredCategory": "groceries",
+    "condition": "incorrect_metadata"
+  }
+]

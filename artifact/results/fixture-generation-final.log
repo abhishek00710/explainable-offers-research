@@ -1,0 +1,24 @@
+warning: <USER_HOME>/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'explainableoffers': failed storing manifest for 'explainableoffers' in cache: attempt to write a readonly database
+Building for debugging...
+[2 / 14] OfferCore
+[8 / 20] OfferCore
+[14 / 24] OfferCore
+[16 / 24] Evaluation
+[20 / 28] Evaluation
+[27 / 34] Evaluation
+[28 / 33] offer-experiments-product
+<USER_HOME>/Documents/Playground/ExplainableOffers/Sources/Experiments/main.swift:176:73: warning: will never be executed
+174 |         "peakProcessRSSBytes":memoryResult == 0 ? "\(usage.ru_maxrss)" : "unavailable",
+175 |         "memoryScope":"Darwin getrusage RUSAGE_SELF ru_maxrss bytes: cumulative process high-water mark after all experiments, including data/output buffering; not per-method allocation or incremental memory.",
+176 |         "buildConfiguration": _isDebugAssertConfiguration() ? "debug" : "release",
+    |                               |                                         `- warning: will never be executed
+    |                               `- note: condition always evaluates to true
+177 |         "arguments":CommandLine.arguments.joined(separator: " "),
+178 |         "timing":"DispatchTime monotonic uptime; pipeline only; 2 warmups and 9 measured trials; rotated method order"
+[32 / 35] offer-experiments-product
+[34 / 35] offer-experiments-product
+Build complete! (2.14 sec)
+Wrote explicit frozen fixture: Fixtures/frozen-seed42.json, n=72, seed=42

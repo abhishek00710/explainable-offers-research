@@ -1,0 +1,17 @@
+{
+  "architecture": "exit=0 arm64\n",
+  "arguments": "../../../../..<TEMP_PATH> --seed 20261119 --count 2160 --output results-reproduced",
+  "buildConfiguration": "release",
+  "datasetCount": "2160",
+  "fixedClock": "1800000000",
+  "hardware": "exit=1 sysctl: sysctl fmt -1 1024 1: Operation not permitted\n",
+  "macOS": "exit=0 ProductName:\t\tmacOS\nProductVersion:\t\t27.2.1\nBuildVersion:\t\t26B131\n",
+  "memoryScope": "Darwin getrusage RUSAGE_SELF ru_maxrss bytes: cumulative process high-water mark after all experiments, including data/output buffering; not per-method allocation or incremental memory.",
+  "osVersion": "Version 27.2.1 (Build 26B131)",
+  "peakProcessRSSBytes": "55001088",
+  "processorCount": "8",
+  "runUTC": "2026-11-19T21:25:26Z",
+  "seed": "20261119",
+  "swift": "exit=0 swift-driver version: 1.168.6 Apple Swift version 6.4.2 (swiftlang-6.4.2.1.9 clang-2100.4.1.1)\nTarget: arm64-apple-macosx27.2.0\n",
+  "timing": "DispatchTime monotonic uptime; pipeline only; 2 warmups and 9 measured trials; rotated method order"
+}

@@ -1,0 +1,59 @@
+warning: <USER_HOME>/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'explainableoffers': failed storing manifest for 'explainableoffers' in cache: attempt to write a readonly database
+Building for debugging...
+[Pre-planning 1 / 153]
+[Planning deferred tasks]
+[39 / 78]
+[40 / 79] OfferCore
+[49 / 116]
+[52 / 116]
+[57 / 116]
+[59 / 116]
+[63 / 116]
+[65 / 116]
+[68 / 116]
+[71 / 116]
+[73 / 116]
+[74 / 116]
+[77 / 116] OfferCore
+[86 / 119] SyntheticData
+[97 / 120] SyntheticData
+[100 / 122] offer-experiments-product
+[102 / 122] OfferCore
+[110 / 123] OfferCoreTests-product
+[119 / 159]
+[125 / 159]
+[131 / 159]
+[132 / 159]
+[134 / 159]
+[136 / 159]
+[138 / 159]
+[139 / 159]
+[142 / 159]
+[143 / 159]
+[146 / 159] OfferCoreTests-product
+[151 / 159] offer-experiments-product
+[153 / 159] OfferCoreTests-product
+[155 / 159] OfferCoreTests-product
+Build complete! (12.37 sec)
+Test Suite 'All tests' started at 2026-11-19 13:14:05.678.
+Test Suite 'OfferCoreTests.xctest' started at 2026-11-19 13:14:05.680.
+Test Suite 'BaselineTests' started at 2026-11-19 13:14:05.680.
+Test Case '-[OfferCoreTests.BaselineTests testIdentifierFallback]' started.
+Test Case '-[OfferCoreTests.BaselineTests testIdentifierFallback]' passed (0.004 seconds).
+Test Case '-[OfferCoreTests.BaselineTests testMissingAndUnrecognizedMetadataAbstain]' started.
+Test Case '-[OfferCoreTests.BaselineTests testMissingAndUnrecognizedMetadataAbstain]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.BaselineTests testStructuredCategoryWins]' started.
+Test Case '-[OfferCoreTests.BaselineTests testStructuredCategoryWins]' passed (0.000 seconds).
+Test Suite 'BaselineTests' passed at 2026-11-19 13:14:05.685.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.004 (0.005) seconds
+Test Suite 'OfferCoreTests.xctest' passed at 2026-11-19 13:14:05.685.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.004 (0.005) seconds
+Test Suite 'All tests' passed at 2026-11-19 13:14:05.685.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.004 (0.007) seconds
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

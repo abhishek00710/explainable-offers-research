@@ -1,0 +1,5 @@
+"method","scenario_n","mean_ndcg_at_3","mean_precision_at_3"
+"eligible_id","8","0.602084","0.500000"
+"metadata","8","0.800465","0.500000"
+"tokens","8","0.846598","0.500000"
+"combined","8","0.800465","0.500000"

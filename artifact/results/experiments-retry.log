@@ -1,0 +1,18 @@
+warning: <USER_HOME>/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'explainableoffers': failed storing manifest for 'explainableoffers' in cache: attempt to write a readonly database
+Building for production...
+[Planning deferred tasks]
+[3 / 18] OfferCore
+[5 / 19] OfferCore
+[11 / 24] SyntheticData
+[14 / 26] SyntheticData
+[24 / 28] offer-experiments-product
+[26 / 29] offer-experiments-product
+[28 / 29] offer-experiments-product
+Build complete! (6.35 sec)
+Completed benchmark n=100
+Completed benchmark n=1000
+Completed benchmark n=10000
+Completed classification N=2160, ranking scenarios=8, benchmark trials=81. Results: <USER_HOME>/Documents/Playground/ExplainableOffers/results

@@ -1,0 +1,18 @@
+PASS: independently recomputed classification metrics (6480 predictions), ranking (32 rows), and 81 benchmark trials.
+PASS: independently recomputed classification metrics (6480 predictions), ranking (32 rows), and 81 benchmark trials.
+PASS: preserved all 64 original files; baseline module copies are byte-identical.
+PASS: labels match frozen catalog; exact stratified corruption rates, nested sets and fixed wrong categories verified. Preparation imports no classifier; authorship is not blinded.
+PASS: 354240 raw predictions; 656 scope summaries; all 23616 confusion cells and 3936 per-class rows independently recomputed. Original predictions reproduced; token predictions invariant to intervention.
+PASS: all 120 ranking candidate sets and independently calculated scores; original judgments unchanged; 20 safety/zero-gain rows excluded from quality means.
+No statistical significance or population prevalence inferred. Independence is procedural, not independent/blinded annotation.
+PASS: seed aggregates and ranking cohort summaries independently checked.
+PASS: preserved all 64 original files; baseline module copies are byte-identical.
+PASS: labels match frozen catalog; exact stratified corruption rates, nested sets and fixed wrong categories verified. Preparation imports no classifier; authorship is not blinded.
+PASS: 354240 raw predictions; 656 scope summaries; all 23616 confusion cells and 3936 per-class rows independently recomputed. Original predictions reproduced; token predictions invariant to intervention.
+PASS: all 120 ranking candidate sets and independently calculated scores; original judgments unchanged; 20 safety/zero-gain rows excluded from quality means.
+No statistical significance or population prevalence inferred. Independence is procedural, not independent/blinded annotation.
+PASS: seed aggregates and ranking cohort summaries independently checked.
+Generated 128 sensitivity summaries, 15 cohort summaries, and manuscript tables.
+PASS: 123 original table rows are CSV projections; follow-up tables/aggregates regenerate byte-identically; all six-decimal report metrics are present in CSV evidence; key contextual conclusions checked.
+Scope: prose meaning and non-score numbers require the documented manual evidence map; this is not automated proof of every sentence.
+PASS: all five manually authored report tables verified against method/rate/cohort-specific CSV rows, including original timing medians.

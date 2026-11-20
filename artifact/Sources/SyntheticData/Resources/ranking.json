@@ -1,0 +1,570 @@
+[
+  {
+    "id": "grocery_need",
+    "transactions": [
+      {
+        "id": "grocery_need-0",
+        "accountID": "A",
+        "timestamp": 1799999000,
+        "amountCents": 9000,
+        "currency": "USD",
+        "description": "Freshmart",
+        "structuredCategory": "groceries",
+        "status": "posted"
+      },
+      {
+        "id": "grocery_need-1",
+        "accountID": "A",
+        "timestamp": 1799999000,
+        "amountCents": 1000,
+        "currency": "USD",
+        "description": "Cafe",
+        "structuredCategory": "dining",
+        "status": "posted"
+      }
+    ],
+    "offers": [
+      {
+        "id": "o1",
+        "category": "groceries",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o2",
+        "category": "dining",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o3",
+        "category": "transport",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o4",
+        "category": "shopping",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o5",
+        "category": "utilities",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "decisions": {
+      "o1": "eligible",
+      "o2": "eligible",
+      "o3": "eligible",
+      "o4": "eligible",
+      "o5": "eligible"
+    },
+    "judgments": {
+      "o1": 3,
+      "o2": 1,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    }
+  },
+  {
+    "id": "commuter",
+    "transactions": [
+      {
+        "id": "commuter-0",
+        "accountID": "A",
+        "timestamp": 1799999000,
+        "amountCents": 12000,
+        "currency": "USD",
+        "description": "Metro",
+        "structuredCategory": "transport",
+        "status": "posted"
+      },
+      {
+        "id": "commuter-1",
+        "accountID": "A",
+        "timestamp": 1799999000,
+        "amountCents": 1000,
+        "currency": "USD",
+        "description": "Apparel",
+        "structuredCategory": "shopping",
+        "status": "posted"
+      }
+    ],
+    "offers": [
+      {
+        "id": "o1",
+        "category": "groceries",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o2",
+        "category": "dining",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o3",
+        "category": "transport",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o4",
+        "category": "shopping",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o5",
+        "category": "utilities",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "decisions": {
+      "o1": "eligible",
+      "o2": "eligible",
+      "o3": "eligible",
+      "o4": "eligible",
+      "o5": "eligible"
+    },
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 3,
+      "o4": 1,
+      "o5": 0
+    }
+  },
+  {
+    "id": "utility_need",
+    "transactions": [
+      {
+        "id": "utility_need-0",
+        "accountID": "A",
+        "timestamp": 1799999000,
+        "amountCents": 18000,
+        "currency": "USD",
+        "description": "Electric",
+        "structuredCategory": "utilities",
+        "status": "posted"
+      }
+    ],
+    "offers": [
+      {
+        "id": "o1",
+        "category": "groceries",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o2",
+        "category": "dining",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o3",
+        "category": "transport",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o4",
+        "category": "shopping",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o5",
+        "category": "utilities",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "decisions": {
+      "o1": "eligible",
+      "o2": "eligible",
+      "o3": "eligible",
+      "o4": "eligible",
+      "o5": "eligible"
+    },
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 1,
+      "o4": 0,
+      "o5": 3
+    }
+  },
+  {
+    "id": "dining_need",
+    "transactions": [
+      {
+        "id": "dining_need-0",
+        "accountID": "A",
+        "timestamp": 1799999000,
+        "amountCents": 8000,
+        "currency": "USD",
+        "description": "Cafe",
+        "structuredCategory": "dining",
+        "status": "posted"
+      },
+      {
+        "id": "dining_need-1",
+        "accountID": "A",
+        "timestamp": 1799999000,
+        "amountCents": 1000,
+        "currency": "USD",
+        "description": "Freshmart",
+        "structuredCategory": "groceries",
+        "status": "posted"
+      }
+    ],
+    "offers": [
+      {
+        "id": "o1",
+        "category": "groceries",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o2",
+        "category": "dining",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o3",
+        "category": "transport",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o4",
+        "category": "shopping",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o5",
+        "category": "utilities",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "decisions": {
+      "o1": "eligible",
+      "o2": "eligible",
+      "o3": "eligible",
+      "o4": "eligible",
+      "o5": "eligible"
+    },
+    "judgments": {
+      "o1": 1,
+      "o2": 3,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    }
+  },
+  {
+    "id": "shopping_need",
+    "transactions": [
+      {
+        "id": "shopping_need-0",
+        "accountID": "A",
+        "timestamp": 1799999000,
+        "amountCents": 11000,
+        "currency": "USD",
+        "description": "Apparel",
+        "structuredCategory": "shopping",
+        "status": "posted"
+      }
+    ],
+    "offers": [
+      {
+        "id": "o1",
+        "category": "groceries",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o2",
+        "category": "dining",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o3",
+        "category": "transport",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o4",
+        "category": "shopping",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o5",
+        "category": "utilities",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "decisions": {
+      "o1": "eligible",
+      "o2": "eligible",
+      "o3": "eligible",
+      "o4": "eligible",
+      "o5": "eligible"
+    },
+    "judgments": {
+      "o1": 0,
+      "o2": 1,
+      "o3": 0,
+      "o4": 3,
+      "o5": 0
+    }
+  },
+  {
+    "id": "needs_diverge_from_spend",
+    "transactions": [
+      {
+        "id": "needs_diverge_from_spend-0",
+        "accountID": "A",
+        "timestamp": 1799999000,
+        "amountCents": 30000,
+        "currency": "USD",
+        "description": "Electric",
+        "structuredCategory": "utilities",
+        "status": "posted"
+      },
+      {
+        "id": "needs_diverge_from_spend-1",
+        "accountID": "A",
+        "timestamp": 1799999000,
+        "amountCents": 10000,
+        "currency": "USD",
+        "description": "Apparel",
+        "structuredCategory": "shopping",
+        "status": "posted"
+      }
+    ],
+    "offers": [
+      {
+        "id": "o1",
+        "category": "groceries",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o2",
+        "category": "dining",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o3",
+        "category": "transport",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o4",
+        "category": "shopping",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o5",
+        "category": "utilities",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "decisions": {
+      "o1": "eligible",
+      "o2": "eligible",
+      "o3": "eligible",
+      "o4": "eligible",
+      "o5": "eligible"
+    },
+    "judgments": {
+      "o1": 3,
+      "o2": 2,
+      "o3": 1,
+      "o4": 0,
+      "o5": 0
+    }
+  },
+  {
+    "id": "unrecognized_history",
+    "transactions": [
+      {
+        "id": "unrecognized_history-0",
+        "accountID": "A",
+        "timestamp": 1799999000,
+        "amountCents": 17000,
+        "currency": "USD",
+        "description": "Zephyr Mobility",
+        "structuredCategory": null,
+        "status": "posted"
+      }
+    ],
+    "offers": [
+      {
+        "id": "o1",
+        "category": "groceries",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o2",
+        "category": "dining",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o3",
+        "category": "transport",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o4",
+        "category": "shopping",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o5",
+        "category": "utilities",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "decisions": {
+      "o1": "eligible",
+      "o2": "eligible",
+      "o3": "eligible",
+      "o4": "eligible",
+      "o5": "eligible"
+    },
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 3,
+      "o4": 0,
+      "o5": 0
+    }
+  },
+  {
+    "id": "wrong_metadata",
+    "transactions": [
+      {
+        "id": "wrong_metadata-0",
+        "accountID": "A",
+        "timestamp": 1799999000,
+        "amountCents": 21000,
+        "currency": "USD",
+        "description": "Grocery Central",
+        "structuredCategory": "utilities",
+        "status": "posted"
+      }
+    ],
+    "offers": [
+      {
+        "id": "o1",
+        "category": "groceries",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o2",
+        "category": "dining",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o3",
+        "category": "transport",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o4",
+        "category": "shopping",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "id": "o5",
+        "category": "utilities",
+        "currency": "USD",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "decisions": {
+      "o1": "eligible",
+      "o2": "eligible",
+      "o3": "eligible",
+      "o4": "eligible",
+      "o5": "eligible"
+    },
+    "judgments": {
+      "o1": 3,
+      "o2": 0,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    }
+  }
+]

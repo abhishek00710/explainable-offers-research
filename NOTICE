@@ -1,0 +1,16 @@
+Explainable Offer Recommendations in Mobile Banking
+Copyright 2026 Abhishek Gang Deb
+
+Original research code, documentation, and synthetic datasets owned by
+Abhishek Gang Deb are licensed under the Apache License, Version 2.0.
+See LICENSE for the full terms.
+
+Apple frameworks, SDKs, developer tools, trademarks, and third-party materials
+are not owned by the author and are not relicensed by this notice. No Apple
+SDK or framework implementation is bundled. Referenced dependencies remain
+subject to their respective terms; see docs/THIRD_PARTY.md.
+
+Historical experiment measurements are preserved. Public log copies contain
+explicit path redactions; original unredacted evidence remains with the owner.
+Hash-manifest changes distinguish the public copy from historical originals.
+See docs/PROVENANCE.md. No bank or Apple endorsement is asserted.

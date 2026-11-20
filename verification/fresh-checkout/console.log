@@ -1,0 +1,297 @@
+PASS: 145 release-file hashes verified; no unmanifested publication files.
+warning: <USER_HOME>/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'artifact': failed storing manifest for 'artifact' in cache: attempt to write a readonly database
+Building for debugging...
+[Pre-planning 1 / 211]
+[Planning deferred tasks]
+[58 / 108] ExplainableOffers_SyntheticData
+[60 / 108]
+[61 / 109] OfferCore
+[69 / 150]
+[73 / 150]
+[78 / 150]
+[80 / 150]
+[84 / 150]
+[86 / 150]
+[89 / 150]
+[92 / 150]
+[94 / 150]
+[95 / 150]
+[102 / 150] OfferCore
+[110 / 152] Evaluation
+[114 / 157] SyntheticData
+[115 / 157] Evaluation
+[127 / 157] Evaluation
+[134 / 158] SyntheticData
+[139 / 158] OfferCore-product
+[143 / 159] offer-experiments-product
+[145 / 161] offer-experiments-product
+[146 / 161] OfferCoreTests-product
+[155 / 198]
+[160 / 198]
+[164 / 198]
+[169 / 198]
+[172 / 198]
+[174 / 198]
+[178 / 198]
+[179 / 198]
+[182 / 198]
+[183 / 198]
+[187 / 198] OfferCoreTests-product
+[192 / 198] OfferCoreTests-product
+[194 / 198] OfferCoreTests-product
+Build complete! (13.47 sec)
+Test Suite 'All tests' started at 2026-11-19 14:29:01.927.
+Test Suite 'OfferCoreTests.xctest' started at 2026-11-19 14:29:01.928.
+Test Suite 'BaselineTests' started at 2026-11-19 14:29:01.928.
+Test Case '-[OfferCoreTests.BaselineTests testIdentifierFallback]' started.
+Test Case '-[OfferCoreTests.BaselineTests testIdentifierFallback]' passed (0.002 seconds).
+Test Case '-[OfferCoreTests.BaselineTests testMissingAndUnrecognizedMetadataAbstain]' started.
+Test Case '-[OfferCoreTests.BaselineTests testMissingAndUnrecognizedMetadataAbstain]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.BaselineTests testStructuredCategoryWins]' started.
+Test Case '-[OfferCoreTests.BaselineTests testStructuredCategoryWins]' passed (0.000 seconds).
+Test Suite 'BaselineTests' passed at 2026-11-19 14:29:01.931.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'PipelineTests' started at 2026-11-19 14:29:01.931.
+Test Case '-[OfferCoreTests.PipelineTests testAccountSwitchAndProfileClockRequireRefresh]' started.
+Test Case '-[OfferCoreTests.PipelineTests testAccountSwitchAndProfileClockRequireRefresh]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testAmbiguityOOVAndWordBoundaries]' started.
+Test Case '-[OfferCoreTests.PipelineTests testAmbiguityOOVAndWordBoundaries]' passed (0.004 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testCombinedPriorityAndFallback]' started.
+Test Case '-[OfferCoreTests.PipelineTests testCombinedPriorityAndFallback]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testDuplicateAndConflictAreOrderIndependent]' started.
+Test Case '-[OfferCoreTests.PipelineTests testDuplicateAndConflictAreOrderIndependent]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testEligibilityCannotBeInferred]' started.
+Test Case '-[OfferCoreTests.PipelineTests testEligibilityCannotBeInferred]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testExplanationsAndNeutralFallback]' started.
+Test Case '-[OfferCoreTests.PipelineTests testExplanationsAndNeutralFallback]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testFrozenFixture]' started.
+Test Case '-[OfferCoreTests.PipelineTests testFrozenFixture]' passed (0.002 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testHandCalculatedMetrics]' started.
+Test Case '-[OfferCoreTests.PipelineTests testHandCalculatedMetrics]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testNativeTokenizerAndAliases]' started.
+Test Case '-[OfferCoreTests.PipelineTests testNativeTokenizerAndAliases]' passed (0.001 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testOfferValidityCurrencyAndDuplicateConflicts]' started.
+Test Case '-[OfferCoreTests.PipelineTests testOfferValidityCurrencyAndDuplicateConflicts]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testOverflowFailsRatherThanWraps]' started.
+Test Case '-[OfferCoreTests.PipelineTests testOverflowFailsRatherThanWraps]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testRankingAndStableTies]' started.
+Test Case '-[OfferCoreTests.PipelineTests testRankingAndStableTies]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testRefundReversalPendingAndNegative]' started.
+Test Case '-[OfferCoreTests.PipelineTests testRefundReversalPendingAndNegative]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testScopesWindowAndUnknownAccounting]' started.
+Test Case '-[OfferCoreTests.PipelineTests testScopesWindowAndUnknownAccounting]' passed (0.000 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testSeededGenerationAndAuthoredLabels]' started.
+Test Case '-[OfferCoreTests.PipelineTests testSeededGenerationAndAuthoredLabels]' passed (0.001 seconds).
+Test Case '-[OfferCoreTests.PipelineTests testStaleFutureExpiredAndWrongAccountSnapshots]' started.
+Test Case '-[OfferCoreTests.PipelineTests testStaleFutureExpiredAndWrongAccountSnapshots]' passed (0.000 seconds).
+Test Suite 'PipelineTests' passed at 2026-11-19 14:29:01.942.
+	 Executed 16 tests, with 0 failures (0 unexpected) in 0.010 (0.011) seconds
+Test Suite 'OfferCoreTests.xctest' passed at 2026-11-19 14:29:01.942.
+	 Executed 19 tests, with 0 failures (0 unexpected) in 0.012 (0.014) seconds
+Test Suite 'All tests' passed at 2026-11-19 14:29:01.942.
+	 Executed 19 tests, with 0 failures (0 unexpected) in 0.012 (0.015) seconds
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.
+warning: <USER_HOME>/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'validation': failed storing manifest for 'validation' in cache: attempt to write a readonly database
+Building for debugging...
+[Pre-planning 1 / 124]
+[Planning deferred tasks]
+[38 / 76]
+[39 / 77] OfferCore
+[48 / 119]
+[51 / 119]
+[56 / 119]
+[58 / 119]
+[62 / 119]
+[64 / 119]
+[67 / 119]
+[70 / 119]
+[72 / 119]
+[73 / 119]
+[81 / 119] OfferCore
+[87 / 119]
+[88 / 120] Evaluation
+[90 / 122] Evaluation
+[101 / 123]
+[102 / 125] validate-offers-product
+[104 / 125] validate-offers-product
+[107 / 125] OfferCore
+[111 / 126] validate-offers-product
+[113 / 126] validate-offers-product
+[115 / 126] ValidationTests-product
+[125 / 162]
+[131 / 162]
+[135 / 162]
+[138 / 162]
+[139 / 162]
+[141 / 162]
+[144 / 162]
+[145 / 162]
+[147 / 162]
+[148 / 162]
+[151 / 162] ValidationTests-product
+[156 / 162] ValidationTests-product
+[158 / 162] ValidationTests-product
+Build complete! (18.39 sec)
+Test Suite 'All tests' started at 2026-11-19 14:29:22.209.
+Test Suite 'ValidationTests.xctest' started at 2026-11-19 14:29:22.211.
+Test Suite 'ValidationTests' started at 2026-11-19 14:29:22.211.
+Test Case '-[ValidationTests.ValidationTests testAgreementCanStillBeWrong]' started.
+Test Case '-[ValidationTests.ValidationTests testAgreementCanStillBeWrong]' passed (0.004 seconds).
+Test Case '-[ValidationTests.ValidationTests testConflictAbstains]' started.
+Test Case '-[ValidationTests.ValidationTests testConflictAbstains]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testConflictingDuplicatesStayExcluded]' started.
+Test Case '-[ValidationTests.ValidationTests testConflictingDuplicatesStayExcluded]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testCorrectMetadataCanBeLost]' started.
+Test Case '-[ValidationTests.ValidationTests testCorrectMetadataCanBeLost]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testKnownMacroDefinitionAndUnknownDenominators]' started.
+Test Case '-[ValidationTests.ValidationTests testKnownMacroDefinitionAndUnknownDenominators]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testMissingEvidenceDoesNotCreateConflict]' started.
+Test Case '-[ValidationTests.ValidationTests testMissingEvidenceDoesNotCreateConflict]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testNativeTokenEvidence]' started.
+Test Case '-[ValidationTests.ValidationTests testNativeTokenEvidence]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testProfilePreservesLedgerGateAndUnknownTotals]' started.
+Test Case '-[ValidationTests.ValidationTests testProfilePreservesLedgerGateAndUnknownTotals]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testRankingUsesIndependentIdealSet]' started.
+Test Case '-[ValidationTests.ValidationTests testRankingUsesIndependentIdealSet]' passed (0.000 seconds).
+Test Case '-[ValidationTests.ValidationTests testRegistryConflictsAlsoAbstain]' started.
+Test Case '-[ValidationTests.ValidationTests testRegistryConflictsAlsoAbstain]' passed (0.000 seconds).
+Test Suite 'ValidationTests' passed at 2026-11-19 14:29:22.219.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.006 (0.008) seconds
+Test Suite 'ValidationTests.xctest' passed at 2026-11-19 14:29:22.219.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.006 (0.008) seconds
+Test Suite 'All tests' passed at 2026-11-19 14:29:22.219.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.006 (0.010) seconds
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.
+warning: <USER_HOME>/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'artifact': failed storing manifest for 'artifact' in cache: attempt to write a readonly database
+Building for production...
+[Planning deferred tasks]
+[37 / 62] OfferCore
+[47 / 98]
+[50 / 98]
+[55 / 98]
+[56 / 98]
+[57 / 98]
+[61 / 98]
+[63 / 98]
+[66 / 98]
+[69 / 98]
+[71 / 98]
+[72 / 98]
+[74 / 98] OfferCore
+[82 / 100] SyntheticData
+[86 / 102] SyntheticData
+[99 / 103] offer-experiments-product
+[101 / 104] offer-experiments-product
+[103 / 104] offer-experiments-product
+Build complete! (10.57 sec)
+Completed benchmark n=100
+Completed benchmark n=1000
+Completed benchmark n=10000
+Completed classification N=2160, ranking scenarios=8, benchmark trials=81. Results: /private<CHECKOUT>/runs/fresh/original
+warning: <USER_HOME>/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: <USER_HOME>/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'validation': failed storing manifest for 'validation' in cache: attempt to write a readonly database
+Building for production...
+[Planning deferred tasks]
+[21 / 39] OfferCore
+[31 / 75]
+[34 / 75]
+[39 / 75]
+[41 / 75]
+[45 / 75]
+[47 / 75]
+[50 / 75]
+[53 / 75]
+[55 / 75]
+[56 / 75]
+[58 / 75] OfferCore
+[65 / 76] Evaluation
+[67 / 77] Evaluation
+[74 / 78] validate-offers-product
+[76 / 79] validate-offers-product
+[78 / 79] validate-offers-product
+Build complete! (8.77 sec)
+Measured original seed=-1 controlled-rate=-1
+Measured sensitivity seed=11 controlled-rate=0
+Measured sensitivity seed=11 controlled-rate=5
+Measured sensitivity seed=11 controlled-rate=10
+Measured sensitivity seed=11 controlled-rate=20
+Measured sensitivity seed=11 controlled-rate=40
+Measured sensitivity seed=11 controlled-rate=60
+Measured sensitivity seed=11 controlled-rate=80
+Measured sensitivity seed=11 controlled-rate=100
+Measured sensitivity seed=29 controlled-rate=0
+Measured sensitivity seed=29 controlled-rate=5
+Measured sensitivity seed=29 controlled-rate=10
+Measured sensitivity seed=29 controlled-rate=20
+Measured sensitivity seed=29 controlled-rate=40
+Measured sensitivity seed=29 controlled-rate=60
+Measured sensitivity seed=29 controlled-rate=80
+Measured sensitivity seed=29 controlled-rate=100
+Measured sensitivity seed=47 controlled-rate=0
+Measured sensitivity seed=47 controlled-rate=5
+Measured sensitivity seed=47 controlled-rate=10
+Measured sensitivity seed=47 controlled-rate=20
+Measured sensitivity seed=47 controlled-rate=40
+Measured sensitivity seed=47 controlled-rate=60
+Measured sensitivity seed=47 controlled-rate=80
+Measured sensitivity seed=47 controlled-rate=100
+Measured sensitivity seed=71 controlled-rate=0
+Measured sensitivity seed=71 controlled-rate=5
+Measured sensitivity seed=71 controlled-rate=10
+Measured sensitivity seed=71 controlled-rate=20
+Measured sensitivity seed=71 controlled-rate=40
+Measured sensitivity seed=71 controlled-rate=60
+Measured sensitivity seed=71 controlled-rate=80
+Measured sensitivity seed=71 controlled-rate=100
+Measured sensitivity seed=101 controlled-rate=0
+Measured sensitivity seed=101 controlled-rate=5
+Measured sensitivity seed=101 controlled-rate=10
+Measured sensitivity seed=101 controlled-rate=20
+Measured sensitivity seed=101 controlled-rate=40
+Measured sensitivity seed=101 controlled-rate=60
+Measured sensitivity seed=101 controlled-rate=80
+Measured sensitivity seed=101 controlled-rate=100
+Completed 41 datasets × 4 methods; 24 scenarios × 5 rankers. No new timing claims.
+PASS: independently recomputed classification metrics (6480 predictions), ranking (32 rows), and 81 benchmark trials.
+Generated 128 sensitivity summaries, 15 cohort summaries, and manuscript tables.
+PASS: preserved all 64 original files; baseline module copies are byte-identical.
+PASS: labels match frozen catalog; exact stratified corruption rates, nested sets and fixed wrong categories verified. Preparation imports no classifier; authorship is not blinded.
+PASS: 354240 raw predictions; 656 scope summaries; all 23616 confusion cells and 3936 per-class rows independently recomputed. Original predictions reproduced; token predictions invariant to intervention.
+PASS: all 120 ranking candidate sets and independently calculated scores; original judgments unchanged; 20 safety/zero-gain rows excluded from quality means.
+No statistical significance or population prevalence inferred. Independence is procedural, not independent/blinded annotation.
+PASS: seed aggregates and ranking cohort summaries independently checked.
+PASS: independently recomputed classification metrics (6480 predictions), ranking (32 rows), and 81 benchmark trials.
+PASS: independently recomputed classification metrics (6480 predictions), ranking (32 rows), and 81 benchmark trials.
+PASS: preserved all 64 original files; baseline module copies are byte-identical.
+PASS: labels match frozen catalog; exact stratified corruption rates, nested sets and fixed wrong categories verified. Preparation imports no classifier; authorship is not blinded.
+PASS: 354240 raw predictions; 656 scope summaries; all 23616 confusion cells and 3936 per-class rows independently recomputed. Original predictions reproduced; token predictions invariant to intervention.
+PASS: all 120 ranking candidate sets and independently calculated scores; original judgments unchanged; 20 safety/zero-gain rows excluded from quality means.
+No statistical significance or population prevalence inferred. Independence is procedural, not independent/blinded annotation.
+PASS: seed aggregates and ranking cohort summaries independently checked.
+PASS: preserved all 64 original files; baseline module copies are byte-identical.
+PASS: labels match frozen catalog; exact stratified corruption rates, nested sets and fixed wrong categories verified. Preparation imports no classifier; authorship is not blinded.
+PASS: 354240 raw predictions; 656 scope summaries; all 23616 confusion cells and 3936 per-class rows independently recomputed. Original predictions reproduced; token predictions invariant to intervention.
+PASS: all 120 ranking candidate sets and independently calculated scores; original judgments unchanged; 20 safety/zero-gain rows excluded from quality means.
+No statistical significance or population prevalence inferred. Independence is procedural, not independent/blinded annotation.
+PASS: seed aggregates and ranking cohort summaries independently checked.
+Generated 128 sensitivity summaries, 15 cohort summaries, and manuscript tables.
+PASS: 123 original table rows are CSV projections; follow-up tables/aggregates regenerate byte-identically; all six-decimal report metrics are present in CSV evidence; key contextual conclusions checked.
+Scope: prose meaning and non-score numbers require the documented manual evidence map; this is not automated proof of every sentence.
+PASS: 18 deterministic files match historical outputs byte-for-byte. New benchmark timings, environment and logs are intentionally excluded; new benchmark summaries are independently audited.

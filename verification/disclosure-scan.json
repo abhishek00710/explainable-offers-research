@@ -1,0 +1,11 @@
+{
+  "files_scanned": 167,
+  "findings": [],
+  "binary_files": [],
+  "reviewed_public_hosts": [
+    "developer.apple.com",
+    "www.apache.org",
+    "www.swift.org"
+  ],
+  "limitations": "Pattern scan plus source/provenance review; not proof of absence of secrets, ownership, or contractual restrictions. Approved copyright name is intentional public attribution."
+}

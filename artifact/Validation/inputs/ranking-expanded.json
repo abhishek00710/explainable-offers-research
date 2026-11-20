@@ -1,0 +1,2021 @@
+[
+  {
+    "accountID": "A",
+    "cohort": "original8",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "id": "grocery_need",
+    "judgments": {
+      "o1": 3,
+      "o2": 1,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Unchanged original authored judgments.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 9000,
+        "currency": "USD",
+        "description": "Freshmart",
+        "id": "grocery_need-0",
+        "status": "posted",
+        "structuredCategory": "groceries",
+        "timestamp": 1799999000
+      },
+      {
+        "accountID": "A",
+        "amountCents": 1000,
+        "currency": "USD",
+        "description": "Cafe",
+        "id": "grocery_need-1",
+        "status": "posted",
+        "structuredCategory": "dining",
+        "timestamp": 1799999000
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "original8",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "id": "commuter",
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 3,
+      "o4": 1,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Unchanged original authored judgments.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 12000,
+        "currency": "USD",
+        "description": "Metro",
+        "id": "commuter-0",
+        "status": "posted",
+        "structuredCategory": "transport",
+        "timestamp": 1799999000
+      },
+      {
+        "accountID": "A",
+        "amountCents": 1000,
+        "currency": "USD",
+        "description": "Apparel",
+        "id": "commuter-1",
+        "status": "posted",
+        "structuredCategory": "shopping",
+        "timestamp": 1799999000
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "original8",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "id": "utility_need",
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 1,
+      "o4": 0,
+      "o5": 3
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Unchanged original authored judgments.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 18000,
+        "currency": "USD",
+        "description": "Electric",
+        "id": "utility_need-0",
+        "status": "posted",
+        "structuredCategory": "utilities",
+        "timestamp": 1799999000
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "original8",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "id": "dining_need",
+    "judgments": {
+      "o1": 1,
+      "o2": 3,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Unchanged original authored judgments.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 8000,
+        "currency": "USD",
+        "description": "Cafe",
+        "id": "dining_need-0",
+        "status": "posted",
+        "structuredCategory": "dining",
+        "timestamp": 1799999000
+      },
+      {
+        "accountID": "A",
+        "amountCents": 1000,
+        "currency": "USD",
+        "description": "Freshmart",
+        "id": "dining_need-1",
+        "status": "posted",
+        "structuredCategory": "groceries",
+        "timestamp": 1799999000
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "original8",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "id": "shopping_need",
+    "judgments": {
+      "o1": 0,
+      "o2": 1,
+      "o3": 0,
+      "o4": 3,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Unchanged original authored judgments.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 11000,
+        "currency": "USD",
+        "description": "Apparel",
+        "id": "shopping_need-0",
+        "status": "posted",
+        "structuredCategory": "shopping",
+        "timestamp": 1799999000
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "original8",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "id": "needs_diverge_from_spend",
+    "judgments": {
+      "o1": 3,
+      "o2": 2,
+      "o3": 1,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Unchanged original authored judgments.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 30000,
+        "currency": "USD",
+        "description": "Electric",
+        "id": "needs_diverge_from_spend-0",
+        "status": "posted",
+        "structuredCategory": "utilities",
+        "timestamp": 1799999000
+      },
+      {
+        "accountID": "A",
+        "amountCents": 10000,
+        "currency": "USD",
+        "description": "Apparel",
+        "id": "needs_diverge_from_spend-1",
+        "status": "posted",
+        "structuredCategory": "shopping",
+        "timestamp": 1799999000
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "original8",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "id": "unrecognized_history",
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 3,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Unchanged original authored judgments.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 17000,
+        "currency": "USD",
+        "description": "Zephyr Mobility",
+        "id": "unrecognized_history-0",
+        "status": "posted",
+        "structuredCategory": null,
+        "timestamp": 1799999000
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "original8",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "id": "wrong_metadata",
+    "judgments": {
+      "o1": 3,
+      "o2": 0,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Unchanged original authored judgments.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 21000,
+        "currency": "USD",
+        "description": "Grocery Central",
+        "id": "wrong_metadata-0",
+        "status": "posted",
+        "structuredCategory": "utilities",
+        "timestamp": 1799999000
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "historyTruth": {},
+    "id": "sparse_empty",
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 3,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "No observed history; declared need is a transit pass.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": []
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "historyTruth": {
+      "sparse_aligned-0": "transport"
+    },
+    "id": "sparse_aligned",
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 3,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "One small transit purchase; declared commuting need aligns.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 250,
+        "currency": "USD",
+        "description": "Metro",
+        "id": "sparse_aligned-0",
+        "status": "posted",
+        "structuredCategory": null,
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "historyTruth": {
+      "sparse_misleading-0": "shopping"
+    },
+    "id": "sparse_misleading",
+    "judgments": {
+      "o1": 3,
+      "o2": 1,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "One exceptional apparel purchase; current stated need is groceries.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 80000,
+        "currency": "USD",
+        "description": "Apparel",
+        "id": "sparse_misleading-0",
+        "status": "posted",
+        "structuredCategory": "shopping",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "historyTruth": {
+      "changed_to_transit-0": "dining",
+      "changed_to_transit-1": "transport"
+    },
+    "id": "changed_to_transit",
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 3,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "New commute replaces prior dining preference; unweighted 30-day total may lag.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 20000,
+        "currency": "USD",
+        "description": "Cafe",
+        "id": "changed_to_transit-0",
+        "status": "posted",
+        "structuredCategory": "dining",
+        "timestamp": 1797926400
+      },
+      {
+        "accountID": "A",
+        "amountCents": 1000,
+        "currency": "USD",
+        "description": "Metro",
+        "id": "changed_to_transit-1",
+        "status": "posted",
+        "structuredCategory": "transport",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "historyTruth": {
+      "changed_to_dining-0": "utilities",
+      "changed_to_dining-1": "dining"
+    },
+    "id": "changed_to_dining",
+    "judgments": {
+      "o1": 0,
+      "o2": 3,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "One-off old utility bill; present stated need is dining.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 30000,
+        "currency": "USD",
+        "description": "Electric",
+        "id": "changed_to_dining-0",
+        "status": "posted",
+        "structuredCategory": "utilities",
+        "timestamp": 1797667200
+      },
+      {
+        "accountID": "A",
+        "amountCents": 1500,
+        "currency": "USD",
+        "description": "Cafe",
+        "id": "changed_to_dining-1",
+        "status": "posted",
+        "structuredCategory": "dining",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "historyTruth": {
+      "old_outside_window-0": "shopping",
+      "old_outside_window-1": "transport"
+    },
+    "id": "old_outside_window",
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 3,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Old exceptional purchase is outside the specified window; transit need now.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 90000,
+        "currency": "USD",
+        "description": "Apparel",
+        "id": "old_outside_window-0",
+        "status": "posted",
+        "structuredCategory": "shopping",
+        "timestamp": 1797321600
+      },
+      {
+        "accountID": "A",
+        "amountCents": 500,
+        "currency": "USD",
+        "description": "Metro",
+        "id": "old_outside_window-1",
+        "status": "posted",
+        "structuredCategory": "transport",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "historyTruth": {
+      "wrong_metadata_transit-0": "transport"
+    },
+    "id": "wrong_metadata_transit",
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 3,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Transit purchase incorrectly tagged groceries; transit need independently declared.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 12000,
+        "currency": "USD",
+        "description": "Metro",
+        "id": "wrong_metadata_transit-0",
+        "status": "posted",
+        "structuredCategory": "groceries",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "historyTruth": {
+      "correct_metadata_bad_token-0": "shopping"
+    },
+    "id": "correct_metadata_bad_token",
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 0,
+      "o4": 3,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Fictional appliance shop with coffee in its name; correct shopping metadata conflicts with token cue.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 9000,
+        "currency": "USD",
+        "description": "Coffee Warehouse",
+        "id": "correct_metadata_bad_token-0",
+        "status": "posted",
+        "structuredCategory": "shopping",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "historyTruth": {
+      "jointly_wrong-0": "unknown"
+    },
+    "id": "jointly_wrong",
+    "judgments": {
+      "o1": 3,
+      "o2": 0,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Donation mislabeled dining by metadata and lexical cue; groceries is declared need.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 9000,
+        "currency": "USD",
+        "description": "Coffee Foundation",
+        "id": "jointly_wrong-0",
+        "status": "posted",
+        "structuredCategory": "dining",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "historyTruth": {
+      "wrong_metadata_no_tokens-0": "transport"
+    },
+    "id": "wrong_metadata_no_tokens",
+    "judgments": {
+      "o1": 0,
+      "o2": 0,
+      "o3": 3,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Transit merchant unknown to aliases; erroneous shopping metadata cannot be cross-checked.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 8000,
+        "currency": "USD",
+        "description": "Zephyr Mobility",
+        "id": "wrong_metadata_no_tokens-0",
+        "status": "posted",
+        "structuredCategory": "shopping",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [],
+    "historyTruth": {
+      "missing_snapshot-0": "dining"
+    },
+    "id": "missing_snapshot",
+    "judgments": {
+      "o1": 0,
+      "o2": 3,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Missing authoritative eligibility must suppress all offers.",
+    "snapshot": null,
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 1000,
+        "currency": "USD",
+        "description": "Cafe",
+        "id": "missing_snapshot-0",
+        "status": "posted",
+        "structuredCategory": "dining",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [],
+    "historyTruth": {
+      "stale_snapshot-0": "dining"
+    },
+    "id": "stale_snapshot",
+    "judgments": {
+      "o1": 0,
+      "o2": 3,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "One-hour-old snapshot is stale at exact policy boundary.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799996400
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 1000,
+        "currency": "USD",
+        "description": "Cafe",
+        "id": "stale_snapshot-0",
+        "status": "posted",
+        "structuredCategory": "dining",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [],
+    "historyTruth": {
+      "other_account_snapshot-0": "dining"
+    },
+    "id": "other_account_snapshot",
+    "judgments": {
+      "o1": 0,
+      "o2": 3,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Snapshot belongs to another account; no inference allowed.",
+    "snapshot": {
+      "accountID": "B",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 1000,
+        "currency": "USD",
+        "description": "Cafe",
+        "id": "other_account_snapshot-0",
+        "status": "posted",
+        "structuredCategory": "dining",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o3"
+    ],
+    "historyTruth": {
+      "mixed_eligibility-0": "dining",
+      "mixed_eligibility-1": "transport"
+    },
+    "id": "mixed_eligibility",
+    "judgments": {
+      "o1": 0,
+      "o2": 3,
+      "o3": 2,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Preferred dining denied; only transit explicitly eligible; missing and unknown decisions fail closed.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "unknown",
+        "o2": "ineligible",
+        "o3": "eligible",
+        "o5": "ineligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 15000,
+        "currency": "USD",
+        "description": "Cafe",
+        "id": "mixed_eligibility-0",
+        "status": "posted",
+        "structuredCategory": "dining",
+        "timestamp": 1799913600
+      },
+      {
+        "accountID": "A",
+        "amountCents": 500,
+        "currency": "USD",
+        "description": "Metro",
+        "id": "mixed_eligibility-1",
+        "status": "posted",
+        "structuredCategory": "transport",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o1",
+      "o5"
+    ],
+    "historyTruth": {
+      "mixed_validity-0": "utilities"
+    },
+    "id": "mixed_validity",
+    "judgments": {
+      "o1": 1,
+      "o2": 3,
+      "o3": 0,
+      "o4": 2,
+      "o5": 3
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800000000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1800000001,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "EUR",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Expired, future and wrong-currency offers excluded independently of relevance.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "eligible",
+        "o3": "eligible",
+        "o4": "eligible",
+        "o5": "eligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 2000,
+        "currency": "USD",
+        "description": "Electric",
+        "id": "mixed_validity-0",
+        "status": "posted",
+        "structuredCategory": "utilities",
+        "timestamp": 1799913600
+      }
+    ]
+  },
+  {
+    "accountID": "A",
+    "cohort": "new",
+    "expectedEligible": [
+      "o1"
+    ],
+    "historyTruth": {
+      "no_relevant_eligible-0": "dining"
+    },
+    "id": "no_relevant_eligible",
+    "judgments": {
+      "o1": 0,
+      "o2": 3,
+      "o3": 0,
+      "o4": 0,
+      "o5": 0
+    },
+    "offers": [
+      {
+        "category": "groceries",
+        "currency": "USD",
+        "id": "o1",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "dining",
+        "currency": "USD",
+        "id": "o2",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "transport",
+        "currency": "USD",
+        "id": "o3",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "shopping",
+        "currency": "USD",
+        "id": "o4",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      },
+      {
+        "category": "utilities",
+        "currency": "USD",
+        "id": "o5",
+        "validFrom": 1799999900,
+        "validUntil": 1800010000
+      }
+    ],
+    "rationale": "Only irrelevant groceries eligible; no ideal relevance gain, quality undefined.",
+    "snapshot": {
+      "accountID": "A",
+      "decisions": {
+        "o1": "eligible",
+        "o2": "ineligible"
+      },
+      "expiresAt": 1800000100,
+      "issuedAt": 1799999990
+    },
+    "transactions": [
+      {
+        "accountID": "A",
+        "amountCents": 1000,
+        "currency": "USD",
+        "description": "Cafe",
+        "id": "no_relevant_eligible-0",
+        "status": "posted",
+        "structuredCategory": "dining",
+        "timestamp": 1799913600
+      }
+    ]
+  }
+]
